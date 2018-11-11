@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.makeramen.roundedimageview.RoundedImageView;
 import com.stu.chatgirl.R;
 import com.stu.chatgirl.model.Msg;
 
@@ -24,6 +25,7 @@ import java.util.List;
  */
 public class ChatAdapter extends RecyclerView.Adapter {
 
+    private final boolean sex;
     private Context context;
 
     private static final int ME = 0;
@@ -31,12 +33,14 @@ public class ChatAdapter extends RecyclerView.Adapter {
 
     private List<Msg> list = new ArrayList<>();
 
-    public ChatAdapter(Context context, ArrayList<Msg> list) {
+    public ChatAdapter(Context context, ArrayList<Msg> list, boolean sex) {
         this.context = context;
         this.list = list;
+        this.sex = sex;
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
+
 
         LinearLayout me;
         LinearLayout robot;
@@ -81,7 +85,6 @@ public class ChatAdapter extends RecyclerView.Adapter {
         tv.setText(msg.getMsg());
         tv.setAutoLinkMask(Linkify.ALL);
         tv.setMovementMethod(LinkMovementMethod.getInstance());
-
         switch (msg.getType()) {
             case ME:
                 tv.setPadding(25, 25, 35, 25);

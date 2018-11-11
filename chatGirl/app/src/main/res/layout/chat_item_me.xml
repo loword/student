@@ -23,8 +23,8 @@
         android:layout_height="50dp"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="5dp"
-        android:scaleType="centerCrop"
         android:src="@mipmap/boy"
+        android:scaleType="centerCrop"
         app:riv_oval="true" />
 
 </LinearLayout>

@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">陪聊</string>
     <string name="btnsend">发送</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="boy">男生</string>
+    <string name="girl">女生</string>
+    <string name="title">请您选择机器人性别</string>
+    <string name="content">请选择的陪聊机器人的性别</string>
 </resources>

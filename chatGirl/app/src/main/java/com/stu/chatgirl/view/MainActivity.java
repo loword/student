@@ -7,10 +7,10 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -18,6 +18,7 @@ import android.widget.EditText;
 import com.stu.chatgirl.R;
 import com.stu.chatgirl.model.HttpUtils;
 import com.stu.chatgirl.model.Msg;
+import com.stu.chatgirl.utils.SharedPreferencesUtils;
 import com.stu.chatgirl.utils.StatusBarUtils;
 
 import org.json.JSONException;
@@ -25,8 +26,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
+
 
 /**
  * @author peterliu
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String[] values;
     private String text;
     private String url;
+    private boolean sex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setMyTitle();
         initView();
         btnSend.setOnClickListener(this);
+        sex = ((boolean) SharedPreferencesUtils.getParam(MainActivity.this, "sex", false));
     }
 
     private void setMyTitle() {
@@ -69,10 +71,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         list = new ArrayList<>();
         list.add(new Msg("你好呀！,我叫美美,我可以陪你聊天", 1));
         list.add(new Msg("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
-
-        chatAdapter = new ChatAdapter(this, list);
+        chatAdapter = new ChatAdapter(this, list, sex);
         rvChat.setAdapter(chatAdapter);
-
         keys = new String[3];
         values = new String[3];
         keys[0] = "key";
@@ -96,8 +96,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     text = new HttpUtils().sendPost("http://tuling123.com/openapi/api", keys, values);
                     readJSON(text);
                     list.add(new Msg(text, 1));
-                    if (url != null) {
-                        list.add(new Msg(url, 1));
+                    if (url != null && !TextUtils.isEmpty(url)) {
+                        list.add(new Msg("哼！自己打开看 。。。" + url, 1));
                     }
                 } catch (IOException e) {
                     Log.e("IOException", e.toString());
@@ -116,9 +116,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             text = jsonObject.getString("text");
             if (jsonObject.has("url")) {
                 url = jsonObject.getString("url");
+            } else {
+                url = null;
             }
         } catch (JSONException e) {
-            url = null;
             e.printStackTrace();
         }
     }
