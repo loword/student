@@ -6,6 +6,19 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="CustomTitleBarTheme" parent="android:Theme.Light">
+        <!--定义标题栏的高度-->
+        <item name="android:windowTitleSize">80dp</item>
+        <!--定义标题栏的背景-->
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@android:color/white</item>
     </style>
 
 </resources>

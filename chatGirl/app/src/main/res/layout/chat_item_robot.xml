@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
-    android:paddingBottom="10dp">
+    android:padding="10dp">
+
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/iv_other"
@@ -13,16 +13,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center_vertical"
         android:layout_marginRight="5dp"
-        android:src="@mipmap/robot"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/girl"
         app:riv_oval="true" />
-
-
-    <TextView
-        android:id="@+id/tvContextRobot"
-        tools:text="1234"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@mipmap/chat_other" />
 
     <LinearLayout
         android:id="@+id/other"

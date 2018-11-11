@@ -1,5 +1,6 @@
 package com.stu.chatgirl.view;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -8,6 +9,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -15,12 +18,15 @@ import android.widget.EditText;
 import com.stu.chatgirl.R;
 import com.stu.chatgirl.model.HttpUtils;
 import com.stu.chatgirl.model.Msg;
+import com.stu.chatgirl.utils.StatusBarUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * @author peterliu
@@ -42,9 +48,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setMyTitle();
         initView();
         btnSend.setOnClickListener(this);
+    }
+
+    private void setMyTitle() {
+        setTheme(R.style.CustomTitleBarTheme);
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+        setContentView(R.layout.activity_main);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.my_title_bar);
+        StatusBarUtils.setStatusBarColor(this, android.R.color.holo_red_light);
     }
 
     private void initView() {
@@ -53,9 +67,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rvChat = findViewById(R.id.rv_chat);
         rvChat.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         list = new ArrayList<>();
-        list.add(new Msg("hello", 1));
-        list.add(new Msg("我是一个美丽的女孩，我叫美美", 1));
-        list.add(new Msg("很高兴可以给你解答问题", 1));
+        list.add(new Msg("你好呀！,我叫美美,我可以陪你聊天", 1));
+        list.add(new Msg("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
 
         chatAdapter = new ChatAdapter(this, list);
         rvChat.setAdapter(chatAdapter);
@@ -127,4 +140,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
     }
+
+    public void onSetting(View view) {
+    }
+
 }

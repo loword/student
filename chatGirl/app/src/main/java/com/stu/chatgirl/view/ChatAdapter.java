@@ -1,6 +1,9 @@
 package com.stu.chatgirl.view;
 
 import android.content.Context;
+import android.os.Build;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
@@ -24,7 +27,7 @@ public class ChatAdapter extends RecyclerView.Adapter {
     private Context context;
 
     private static final int ME = 0;
-    private static final int OTHRE = 1;
+    private static final int ROBOT = 1;
 
     private List<Msg> list = new ArrayList<>();
 
@@ -35,25 +38,21 @@ public class ChatAdapter extends RecyclerView.Adapter {
 
     class ViewHolder extends RecyclerView.ViewHolder {
 
-        private final TextView tvContentMe;
-        private final TextView tvContextRobot;
         LinearLayout me;
-        LinearLayout other;
+        LinearLayout robot;
 
         public ViewHolder(View itemView) {
             super(itemView);
             me = (LinearLayout) itemView.findViewById(R.id.me);
-            other = (LinearLayout) itemView.findViewById(R.id.other);
-            tvContentMe = ((TextView) itemView.findViewById(R.id.tvContextMe));
-            tvContextRobot = ((TextView) itemView.findViewById(R.id.tvContextRobot));
+            robot = (LinearLayout) itemView.findViewById(R.id.other);
         }
 
         public LinearLayout getMe() {
             return me;
         }
 
-        public LinearLayout getOther() {
-            return other;
+        public LinearLayout getRobot() {
+            return robot;
         }
     }
 
@@ -66,7 +65,7 @@ public class ChatAdapter extends RecyclerView.Adapter {
             case ME:
                 viewHolder = new ViewHolder(LayoutInflater.from(context).inflate(R.layout.chat_item_me, parent, false));
                 break;
-            case OTHRE:
+            case ROBOT:
                 viewHolder = new ViewHolder(LayoutInflater.from(context).inflate(R.layout.chat_item_robot, parent, false));
                 break;
         }
@@ -77,31 +76,24 @@ public class ChatAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         ViewHolder viewHolder = (ViewHolder) holder;
-
         TextView tv = new TextView(context);
-
         Msg msg = list.get(position);
-
         tv.setText(msg.getMsg());
         tv.setAutoLinkMask(Linkify.ALL);
         tv.setMovementMethod(LinkMovementMethod.getInstance());
 
         switch (msg.getType()) {
             case ME:
-                /**
-                 * 当recyclerview承载的数据过多的时候，去滑动recyclerview，
-                 * 划出屏幕以外的item会重新绑定数据，如果这个时候绑定数据的方式是
-                 * viewgroup的addView（）方法的话，会出现item添加很多重复的view
-                 * 所以这之前应该执行清除里面view的操作，即removeAllViews（）
-                 */
+                tv.setPadding(25, 25, 35, 25);
                 viewHolder.getMe().removeAllViews();
-                tv.setBackgroundResource(R.mipmap.chat_me);
+                tv.setBackground(ContextCompat.getDrawable(context, R.drawable.bg_robot_me));
                 viewHolder.getMe().addView(tv);
                 break;
-            case OTHRE:
-                viewHolder.getOther().removeAllViews();
-                tv.setBackgroundResource(R.mipmap.chat_other);
-                viewHolder.getOther().addView(tv);
+            case ROBOT:
+                tv.setPadding(35, 25, 25, 25);
+                viewHolder.getRobot().removeAllViews();
+                tv.setBackground(ContextCompat.getDrawable(context, R.drawable.bg_robot_chat));
+                viewHolder.getRobot().addView(tv);
                 break;
         }
     }
@@ -114,10 +106,6 @@ public class ChatAdapter extends RecyclerView.Adapter {
 
     @Override
     public int getItemViewType(int position) {
-        return list.get(position).getType() == 0 ? ME : OTHRE;
-    }
-
-    public void addMsg(Msg msg) {
-        list.add(msg);
+        return list.get(position).getType() == 0 ? ME : ROBOT;
     }
 }
