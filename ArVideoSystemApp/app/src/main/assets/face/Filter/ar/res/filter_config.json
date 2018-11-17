@@ -1,0 +1,745 @@
+{
+  "start_filter_group_id": 500000,
+  "filter_group_set": [
+    {
+      "filter_group_id": 500034,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/huiyi.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500035,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/shaonv.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500036,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hongrun.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500037,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/urban.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500038,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/weiguang.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500039,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hongchun.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500040,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/nihong.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500041,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/yuantu.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500001,
+      "disable_filter_group": 0,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/normal.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500002,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/beyond.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500003,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/fresh_5.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500004,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hide.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500005,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hts1.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500006,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hts2.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500007,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hts3.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500008,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hts5.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500009,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/hts9.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500010,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lively.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500011,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/beach_15.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500012,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/pure.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500013,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/romeo.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500014,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/rose.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500015,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/selffilter.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500016,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/sincere.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500017,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/snow.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500018,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/teen.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500019,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/uncommon.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500020,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/vivid_4.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500021,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/years.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500022,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut100.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500023,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut101.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500024,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut102.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500025,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut103.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500026,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut104.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500027,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut105.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500028,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut106.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500029,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut107.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500030,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut108.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500031,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut109.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500032,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut110.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "filter_group_id": 500033,
+      "mix_target": {
+        "disable_pass_list": 0,
+        "pass_list": [
+          {
+            "pass_id": 1,
+            "pass_type": "mask_blend",
+            "sub_type": "look_up",
+            "source_type": "picture",
+            "source_file": "/res/filter/new/lut111.png",
+            "params": {
+              "dimension": "64"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+

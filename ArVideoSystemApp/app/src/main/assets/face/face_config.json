@@ -1,0 +1,20 @@
+{
+  "beautyConfigs": {
+
+    "whiten": {
+      "defaultValue": 0.65,
+      "assetDir": "beauty_whiten_thinface"
+      // 美白资源包路径 如果不需要 则不用配置
+    },
+    "thinFace": {
+      "defaultValue": 1,
+      "assetDir": "beauty_whiten_thinface"
+      // 瘦脸资源包路径 如果不需要 则不用配置
+    }
+  },
+  "filterConfigs": {
+    // 滤镜调节默认值
+    "defaultValue": 0.8,
+    "assetDir": "/Filter/ar"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "HeavyList": [
+    "kirin970"
+  ],
+  "MediumList": [
+    "Hisilicon Kirin 955",
+    "Qualcomm Technologies, Inc MSM8998",
+    "Qualcomm Technologies, Inc SDM660",
+    "hi3650",
+    "sailfish",
+    "kirin960",
+    "Hisilicon Kirin 955"
+  ],
+  "LightList": [
+    "Qualcomm Technologies, Inc MSM8996"
+  ],
+  "BlackList": [
+    "Qualcomm Technologies, Inc MSM8994",
+    "hi3630",
+    "Hisilicon Kirin 935",
+    "mt6797"
+  ]
+}

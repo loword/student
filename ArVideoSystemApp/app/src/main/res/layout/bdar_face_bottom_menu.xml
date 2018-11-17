@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bdar_id_face_operation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="43dp"
+    android:background="@drawable/bdar_face_panel">
+
+    <!--贴纸layout-->
+    <LinearLayout
+        android:id="@+id/bdar_id_sticker_list_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="贴纸"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#09fbe0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/dbar_sticker_done"
+                android:layout_width="40dp"
+                android:scaleType="centerInside"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bdar_face_arrow"
+                android:layout_alignParentRight="true"
+                android:padding="10dp" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/bdar_id_stickter_list"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="23dp"
+            android:numColumns="4"
+            android:listSelector="#00000000"
+            android:verticalSpacing="26px"
+            android:horizontalSpacing="60px"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="27dp"
+            android:fadingEdge="none"
+            android:overScrollMode="never"
+            android:layout_height="140dp">
+
+        </GridView>
+
+    </LinearLayout>
+
+    <!--美颜  包括两个独立布局 美型+滤镜 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:splitMotionEvents="false"
+        android:visibility="gone"
+        android:id="@+id/bdar_beauty_parent">
+
+        <RelativeLayout
+            android:id="@+id/bdar_id_beauty_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:id="@+id/bdar_filter_tab"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="滤镜"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:id="@+id/filter_seg"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#09fbe0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bdar_beauty_tab"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/bdar_filter_tab"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="美型"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:id="@+id/beauty_seg"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="20dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:layout_height="2dp"
+                    android:background="#09fbe0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/dbar_face_done"
+                android:layout_width="40dp"
+                android:scaleType="centerInside"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bdar_face_arrow"
+                android:layout_alignParentRight="true"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <!--美型-->
+        <RelativeLayout
+            android:id="@+id/bdar_id_beauty_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_below="@id/bdar_id_beauty_bar"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="20dp"
+            android:splitMotionEvents="false"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/bdar_id_whitening_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bdar_string_whitening"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+            <!--美白-->
+            <SeekBar
+                android:id="@+id/bdar_id_whitening_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bdar_id_whitening_txt"
+                android:max="100"
+                style="@style/facear_seekbar"
+                android:secondaryProgress="0"
+                android:progress="70"
+                android:indeterminate="false"></SeekBar>
+
+            <TextView
+                android:id="@+id/bdar_id_dermabrasion_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bdar_string_dermabrasion"
+                android:textSize="12sp"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:layout_below="@id/bdar_id_whitening_seekbar"
+                android:textColor="#ffffff" />
+
+            <!--磨皮-->
+            <SeekBar
+                android:id="@+id/bdar_id_dermabrasion_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/bdar_id_dermabrasion_txt"
+                android:layout_below="@id/bdar_id_whitening_seekbar"
+                android:visibility="gone"
+                style="@style/facear_seekbar"
+                android:max="100"
+                android:secondaryProgress="0"
+                android:progress="70"
+                android:indeterminate="false" />
+
+
+            <TextView
+                android:id="@+id/bdar_id_big_eyes_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:visibility="gone"
+                android:text="@string/bdar_string_big_eyes"
+                android:layout_below="@id/bdar_id_dermabrasion_seekbar"
+                android:textColor="#ffffff"
+
+                />
+
+            <!--大眼-->
+            <SeekBar
+                android:id="@+id/bdar_id_big_eyes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/bdar_id_big_eyes_txt"
+                android:layout_below="@id/bdar_id_dermabrasion_seekbar"
+                style="@style/facear_seekbar"
+                android:max="100"
+                android:visibility="gone"
+                android:progress="70"
+                android:indeterminate="false" />
+
+            <TextView
+                android:id="@+id/bdar_id_face_lift_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:text="@string/bdar_string_face_lift"
+                android:layout_below="@id/bdar_id_big_eyes"
+                android:textColor="#ffffff"
+
+                />
+
+            <!-- 瘦脸 -->
+            <SeekBar
+                android:id="@+id/bdar_id_face_lift"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/bdar_id_face_lift_txt"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bdar_id_big_eyes"
+                style="@style/facear_seekbar"
+                android:max="100"
+                android:secondaryProgress="0"
+                android:progress="70"
+                android:indeterminate="false"></SeekBar>
+
+        </RelativeLayout>
+
+        <!--滤镜列表-->
+        <RelativeLayout
+            android:id="@+id/bdar_id_beauty_type_list"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/bdar_id_beauty_bar"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+
+            <SeekBar
+                android:id="@+id/bdar_filter_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                style="@style/facear_seekbar"
+                android:progress="70"
+                android:indeterminate="false"></SeekBar>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/bdar_filter_style_list"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/bdar_filter_seekbar"
+                android:layout_marginLeft="23dp"
+                android:numColumns="1"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="43dp"
+                android:layout_marginRight="27dp"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

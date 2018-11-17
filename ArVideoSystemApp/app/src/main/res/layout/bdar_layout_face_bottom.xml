@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bdar_face_bottom"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/bdar_id_sticker_layout"
+        android:text="@string/bdar_string_sticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bdar_id_beauty_layout"
+        android:text="@string/bdar_string_beauty"
+        android:layout_toRightOf="@id/bdar_id_sticker_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bdar_id_video_layout"
+        android:text="@string/bdar_capture_video"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bdar_id_pic_layout"
+        android:text="@string/bdar_capture_pic"
+        android:layout_toLeftOf="@id/bdar_id_video_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

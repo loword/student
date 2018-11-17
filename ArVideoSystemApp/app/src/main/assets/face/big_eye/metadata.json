@@ -1,0 +1,16 @@
+{
+  "assetType": "OSG",
+  "mayaTemplateVersionString": "3.0.0.28875+.f82f92d6f510+.feature_LDSDK-357",
+  "mayaTemplatePoint": "0",
+  "mayaTemplateOptionsFileName": "FacePaintTemplateSceneOptions_Default.m",
+  "mayaTemplateScript": "ReleaseFacePaintTemplateScene",
+  "mayaTemplateCreation": "14-Feb-2017 17:10:55",
+  "mayaTemplateMinor": "0",
+  "pluginVersion": "1.4.0.731 2e1a5403aa88\r\n",
+  "mayaTemplateMajor": "3",
+  "tech": "BigEye_demo_f",
+  "mainTriggers": [],
+  "dateModified": "2018-07-11T08:38:16.799000Z",
+  "defaultValue": 0.35,
+  "highPriorityCache": 1
+}
