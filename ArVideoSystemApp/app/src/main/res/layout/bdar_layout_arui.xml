@@ -1,76 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/bdar_id_fragment_container"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.opengl.GLSurfaceView
-        android:id="@+id/bdar_view"
+    <FrameLayout
+        android:id="@+id/bdar_id_fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
 
-    <!-- 返回按钮 -->
-    <com.supe.stu.video.ui.rotateview.RotateImageView
-        android:id="@+id/bdar_titlebar_back"
-        android:layout_width="22dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="15dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/bdar_drawable_btn_back_selector" />
 
-    <!-- 摄像头切换 -->
-    <com.supe.stu.video.ui.rotateview.RotateImageView
-        android:id="@+id/bdar_titlebar_camera"
-        android:layout_width="22dp"
-        android:layout_height="22dp"
-        android:layout_gravity="center|top"
-        android:layout_marginTop="15dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/bdar_drawable_btn_camera_selector"
-        android:visibility="invisible" />
-
-    <!-- 闪光灯开关 -->
-    <com.supe.stu.video.ui.rotateview.RotateImageView
-        android:id="@+id/bdar_titlebar_flash"
-        android:layout_width="22dp"
-        android:layout_height="22dp"
-        android:layout_gravity="end"
-        android:layout_marginEnd="17dp"
-        android:layout_marginTop="15dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/bdar_drawable_btn_flash_disable_selector"
-        android:visibility="invisible" />
-
-    <RelativeLayout
-        android:id="@+id/bdar_id_face_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <com.supe.stu.video.ui.rotateview.RotateImageView
-            android:id="@+id/facear_tip_view"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_centerInParent="true"
-            android:scaleType="centerInside" />
-
-        <!--用于绘制人脸区域方框-->
-        <com.supe.stu.video.ui.FaceBoxView
-            android:id="@+id/bdar_face_box_layer"
+        <android.opengl.GLSurfaceView
+            android:id="@+id/bdar_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <ProgressBar
-            android:id="@+id/bdar_pb_state"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true" />
+        <!-- 返回按钮 -->
+        <com.supe.stu.video.ui.rotateview.RotateImageView
+            android:id="@+id/bdar_titlebar_back"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bdar_drawable_btn_back_selector" />
 
-        <include
-            layout="@layout/bdar_layout_face_bottom"
+        <!-- 摄像头切换 -->
+        <com.supe.stu.video.ui.rotateview.RotateImageView
+            android:id="@+id/bdar_titlebar_camera"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bdar_drawable_btn_camera_selector"
+            android:visibility="invisible" />
+
+        <!-- 闪光灯开关 -->
+        <com.supe.stu.video.ui.rotateview.RotateImageView
+            android:id="@+id/bdar_titlebar_flash"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="17dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bdar_drawable_btn_flash_disable_selector"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/bdar_id_face_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true" />
-    </RelativeLayout>
+            android:layout_height="match_parent">
 
-</FrameLayout>
+            <com.supe.stu.video.ui.rotateview.RotateImageView
+                android:id="@+id/facear_tip_view"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside" />
+
+            <!--用于绘制人脸区域方框-->
+            <com.supe.stu.video.ui.FaceBoxView
+                android:id="@+id/bdar_face_box_layer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:id="@+id/bdar_pb_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <include
+                layout="@layout/bdar_layout_face_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</RelativeLayout>
+
