@@ -1,7 +1,7 @@
 <view class="search-page">
   <view class="search-wrapper">
     <input class="search" placeholder="输入歌手名、歌曲名搜索"
-           placeholder-style="color: #ffcd32;" auto-focus
+           placeholder-style="color: #000;" auto-focus
            placeholder-class="placeholder"
            confirm-type="search"
            bindconfirm="searchAction"

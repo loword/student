@@ -2,7 +2,7 @@
     position: relative;
     height: 88rpx;
     text-align: center;
-    color: #ffcd32;
+    color: #ffc0cb;
     font-size: 0;
 }
 .m-header .icon {

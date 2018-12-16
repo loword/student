@@ -10,31 +10,31 @@
   ],
   "window":{
     "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#222",
-    "navigationBarTitleText": "乐听Music",
+    "navigationBarBackgroundColor": "#ffc0cb",
+    "navigationBarTitleText": "基于微信平台的音乐播放器",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "color": "#919191",
-    "selectedColor": "#ffcd32",
-    "backgroundColor": "#333",
+    "color": "#cdcdcd",
+    "selectedColor": "#ffc0cb",
     "position": "bottom",
+    
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "推荐",
-        "iconPath": "static/image/home-1.png",
-        "selectedIconPath": "static/image/home-2.png"
+        "iconPath": "static/image/home-2.png",
+        "selectedIconPath": "static/image/home-1.png"
       },{
         "pagePath": "pages/player/player",
         "text": "正在播放",
-        "iconPath": "static/image/rank-1.png",
+        "iconPath": "static/image/rank-2.png",
         "selectedIconPath": "static/image/rank-2.png"
       },{
         "pagePath": "pages/singer/singer",
         "text": "音乐厅",
-        "iconPath": "static/image/singer-1.png",
-        "selectedIconPath": "static/image/singer-2.png"
+        "iconPath": "static/image/singer-2.png",
+        "selectedIconPath": "static/image/singer-1.png"
       }
     ]
   }

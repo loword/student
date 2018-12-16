@@ -13,6 +13,7 @@
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
+  
 }
 
 .userinfo-nickname {
@@ -25,7 +26,7 @@
   line-height: 100rpx;
   text-align: center;
   font-size: 28rpx;
-  color: #ffcd32;
+  color: white;
 }
 .recommend-list .item {
   display: -webkit-box;
@@ -39,15 +40,12 @@
   padding: 0 40rpx 40rpx 40rpx;
 }
 .item .icon{
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 120rpx;
-  flex: 0 0 120rpx;
-  width: 120rpx;
-  padding-right: 40rpx;
+  background: white;
+
 }
 .item .icon .image {
-  width: 120rpx;
-  height: 120rpx;
+  width: 140rpx;
+  height: 140rpx; 
 }
 .item .text{
   display: -webkit-box;
@@ -81,7 +79,7 @@
 }
 .search-wrapper .search {
   border-radius: 5px;
-  border: 1px solid #333;
+  border: 1px solid #ffc0cb;
   font-size: 12px;
 }
 .placeholder {
@@ -103,7 +101,7 @@
   line-height: 65px;
   text-align: center;
   font-size: 14px;
-  color: #ffcd32;
+  color: black;
   text-align: center;
   width: 100%;
 }
@@ -144,8 +142,8 @@
   padding: 0 20px;
   height: 100px;
   overflow: hidden;
-  background: #333;
-  color: rgba(255,255,255,0.3);
+  background: #fff;
+  color: #000;
   font-size: 12px;
 }
 .rank .toplist .item .songlist .song {

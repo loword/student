@@ -182,7 +182,7 @@
     border-bottom: 1rpx dashed rgba(255,255,255,.3);
 }
 .playlist-wrapper .playing ,.playlist-wrapper .playing .singer, .playlist-wrapper .playing .play_list__line{
-    color: #ff9900!important;
+    color: #ffc0cb!important;
 }
 
 .playlist-wrapper .item .name {
@@ -281,7 +281,7 @@
     font-size: 14px;
 }
 .current {
-    color: #ffcd32;
+    color: #ffc0cb;
 }
 .currentLyricWrapper {
     height:70rpx;
@@ -291,7 +291,7 @@
     line-height: 70rpx;
     text-align: center;
     width: 100%;
-    color: #ffcd32;
+    color: #ffc0cb;
 }
 .dots-wrapper {
     position: absolute;

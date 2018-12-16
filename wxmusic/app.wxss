@@ -5,12 +5,12 @@ page{
   width: 100%;
   position: fixed;
   top: 0;
-  color: #fff;
-  background:#222;
+  color: #000;
+  background:#000;
 }
 .container {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  background: #222;
+  background: #fff;
 } 
