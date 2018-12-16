@@ -111,7 +111,7 @@ Page({
       console.log(res.target)
     }
     return {
-      title: '一个高颜值的音乐播放器。',
+      title: '这是我的毕业论文： 基于微信平台的音乐播放器系统，快来体验一下吧！',
       path: 'pages/index/index',
       success: function (res) {
         // 转发成功

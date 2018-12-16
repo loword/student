@@ -25,6 +25,24 @@ Page({
     this._init()
   },
 
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '这是我的毕业论文： 基于微信平台的音乐播放器系统，快来体验一下吧！',
+      path: 'pages/player/player',
+      success: function (res) {
+        // 转发成功
+        console.log('分享成功')
+      },
+      fail: function (res) {
+        // 转发失败
+        console.log('分享失败')
+      }
+    }
+  },
   //初始化
   _init: function () {
     let songslist = (app.songlist.length && app.songlist) || wx.getStorageSync('songlist')

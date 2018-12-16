@@ -191,6 +191,7 @@
     white-space:nowrap;
     text-overflow:ellipsis;
     font-size: 14px;
+    color: white
 }
 .playlist-wrapper .item .play_list__line {
     display: block;
@@ -246,6 +247,7 @@
     line-height: 100rpx;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-size: 16px;
+    color: white
 }
 .player .normal-player .bottom .progress-wrapper .progress-bar-wrapper {
     -webkit-box-flex: 1;
