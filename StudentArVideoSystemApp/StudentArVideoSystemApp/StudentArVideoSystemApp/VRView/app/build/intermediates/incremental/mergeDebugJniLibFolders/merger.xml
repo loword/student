@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/src/main/jniLibs"><file name="armeabi-v7a/libNvStreamingSdkCore.so" path="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/src/main/jniLibs/armeabi-v7a/libNvStreamingSdkCore.so"/></source></dataSet><dataSet config="debug"><source path="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/src/debug/jniLibs"/></dataSet></merger>

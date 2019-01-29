@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_fb69923204a70825fd94967dd24b1738096f5cd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/code/student/ArVideoSystemApp/lib/android_jar/NvAndroidStreamingSdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fcce5fd7cb0016de8a01ba9bc38bc692f9175d4">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/2/NvAndroidStreamingSdk_e795933b6b99cd0a3ee9a4d440ec50c027b3e577/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/037a2011ebc43531b418c9fe8016580cae079b7d/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_68d2440a69ab34daa1971f2947fd94b41d2c0c40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.gradle/caches/modules-2/files-2.1/com.google.protobuf.nano/protobuf-javanano/3.0.0-alpha-7/52587934797e3433992a9d69178a1471e4a8f85d/protobuf-javanano-3.0.0-alpha-7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52587934797e3433992a9d69178a1471e4a8f85d">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/protobuf-javanano-3.0.0-alpha-7_b963f164303b03c1c43abf83c75ff62f44de4e55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_a98cb80c73d33786981ca6d68889b7d0beaec96e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/code/student/ArVideoSystemApp/lib/android_jar/effectlib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="597bb641aac1e7806e6ceff900ab027f96b17636">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/2/effectlib_5f6fd1f01b1f8ae00c667dd056c5dcf5d3057a88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/78b96b8f5f6185fa1639d70143eb6b9c03cef0db/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_d54c367023ad259423ce81327e12d1b17753a67f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/ff878d956171a5d94089eeebf1c628f28477c575/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa8a9f3836181c1b81990b4eb1e26ad9f171e538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/cd1fbd32e1aa280a9ff3f96f9b0ea4385e560175/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a2e1966a0ae9b5b7c2f50a8197ea638f20badebe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3a761cbd2044f99a0d63eacd9de8c46f0b882ee">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29c7fe925e31507b9bc50b28b305804cc5b0922f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/ff878d956171a5d94089eeebf1c628f28477c575/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a791f40b002866be59047d582d48f62db98aefba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/037a2011ebc43531b418c9fe8016580cae079b7d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5e50dd318016ec6e3dd10dec78aec94025050afc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/4985e3541a3eef506cad21b4565ab561714ca6e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4cdfe61a8b50cb3f10d168ed153a91be2f0cb5b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/f87c521b483e2fbf3afc202429bb8228e4400ba0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b6a32972b7a044442f88693fd75296d67709441/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a017346e091a582fb867398a986da6d7051a13d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/f87c521b483e2fbf3afc202429bb8228e4400ba0/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_f0e6b67975d53192f2be34e1b339fa65505a448a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/cd1fbd32e1aa280a9ff3f96f9b0ea4385e560175/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_545eb86f4a35754a2236cc7adb760017e8ebd1cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/284263c19f8ef94ec81859473142532c4b4553d0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9226e20c43ced1c098e4ed83039259c3706e19f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/042d286e240bc94e6cae3f863c570b3ff8ec9519/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_11cd7d19c90a9e8d5262f142f122aa9bbe704b2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/78b96b8f5f6185fa1639d70143eb6b9c03cef0db/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f2fda1c203835e5667bcf620de7bc86ee78f998/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/89a13c581409b6da384f5d91bc0a81d56377b418/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51c456fd7f344f33a2f3ac9685d4b063e38df45e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peterliu/.android/build-cache/841d66e00516c06adf1726e37ce953b361e27fdd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6460d98faa7de9f66834f0bfdcef934daa4d3c41/classes.dex" />
+    </item>
+
+</items>

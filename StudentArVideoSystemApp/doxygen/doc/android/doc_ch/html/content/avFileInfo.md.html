@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>美摄SDK For Android: 音视频文件信息</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">美摄SDK For Android
+   &#160;<span id="projectnumber">2.4.3.14</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">音视频文件信息 </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsAVFileInfo.html">NvsAVFileInfo</a> 类即音视频文件信息类，包括音视频的时长，文件类型，数据速率，视频流数目，音频流数目，以及对应的接口来获取其他属性信息。对用户来说，在添加完所有片段之后， 要获取某个片段的音视频文件信息，则需要找到对应的音视频片段对象。获取音视频片段对象的操作如下： <br />
+1.通过时间线对象，获取相应的视频轨道<a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsTimeline.html#ac4ef087dd4023536246ad9d8e73481c4">getVideoTrackByIndex()</a>或者音频轨道<a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsTimeline.html#ade317980551c4942e3596edcccec1b45">getAudioTrackByIndex()</a>。 <br />
+2.通过轨道对象，获取相应的视频片段<a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsVideoTrack.html#add8391a7d722bff75f2864ffc3d39272">getClipWithIndex()</a>或者音频片段<a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsAudioTrack.html#afbe656901e8909ff59c512a56727b699">getClipWithIndex()</a>，即得到音视频片段对象。</p>
+<p>每个片段对象里都有获取此片段文件路径的接口<a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsClip.html#a184d719d2d382733b77ae3df19523291">getFilePath()</a>， 然后通过NvsStreamingContext对象，调用其 <a class="el" href="classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#aa2ee8fbf633d1d1f18beb74d523b24cd">getAVFileInfo()</a>接口， 也就直接得到NvsAVFileInfo对象，即可获取相应的文件属性信息。注意： getAVFileInfo()待输入的参数即前面所说的片段对象里的文件路径。 </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

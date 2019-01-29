@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/shape_icon_layout"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="@drawable/shape_border_shape_default">
+
+        <ImageView
+            android:id="@+id/shape_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cheek_thinning" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/shape_txt"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textSize="11sp"/>
+
+</LinearLayout>

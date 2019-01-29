@@ -1,0 +1,166 @@
+{
+  "fx": [
+    {
+      "name": "花瓣",
+      "rank": 0,
+      "package_id": "F845C51E-AFA0-44A5-B18A-87F7E1FA702F",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "花舞",
+      "rank": 0,
+      "package_id": "440DEFEF-D71D-48B1-88D9-02CDD4627AD6",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "小心心",
+      "rank": 1,
+      "package_id": "7CEA7CDF-8AB8-4924-9259-70975B7A19D1",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "小心心",
+      "rank": 1,
+      "package_id": "C44D0609-BECF-4EB2-97BC-984DDA5E95BA",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "火焰",
+      "rank": 2,
+      "package_id": "E852D089-A47E-4079-870E-0FFFC11B66C9",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "火焰",
+      "rank": 2,
+      "package_id": "BE608F1F-3E22-4F1E-8984-CF2EFB6BDE61",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "跳动的音符",
+      "rank": 3,
+      "package_id": "5CC2478F-9B88-4B49-83AA-D0C1C99BF84C",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "下雨",
+      "rank": 5,
+      "package_id": "81C313F8-8C4C-4C56-9639-B962BEC4C1D4",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "雪花",
+      "rank": 6,
+      "package_id": "E41B1BC6-23AC-4508-9C8A-F6430BB37C3F",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "撒花",
+      "rank": 7,
+      "package_id": "F66EAE75-A536-461B-8DC4-77DEA9852502",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "眼睛光芒",
+      "rank": 9,
+      "package_id": "C7BE3B24-769F-4836-8795-C58A5EF12121",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "眼泪",
+      "rank": 10,
+      "package_id": "006B7EF0-F4F4-46BE-98C9-F2006B803B86",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "蝴蝶",
+      "rank": 11,
+      "package_id": "2E41FBA4-BF82-4359-9A0A-F3491805FCD9",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "霓虹灯",
+      "rank": 12,
+      "package_id": "34B095C8-628A-4E9D-B36D-093F9774DAF7",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "金币",
+      "rank": 13,
+      "package_id": "94BF3A54-6A85-464A-B66C-045A0F9714AA",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "金色闪烁",
+      "rank": 14,
+      "package_id": "641C5CDE-BF3E-478D-A4C6-B5D5FA3AA9AD",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "信息",
+      "rank": 15,
+      "package_id": "CDC1BFA5-6922-4B96-A427-F27F071F2EC3",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "彩色烟雾",
+      "rank": 16,
+      "package_id": "D365AF7D-AB90-413D-A419-AB456111AE0D",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "三角",
+      "rank": 17,
+      "package_id": "DD46276A-CEC3-4454-A9D5-38CDB35BAC54",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "人民币",
+      "rank": 18,
+      "package_id": "3440983B-34AF-44E3-A335-E7C9A7F865B9",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "五彩三角",
+      "rank": 19,
+      "package_id": "A7C28D2C-56D6-40D0-8F3E-C70B1870585D",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "蓝色雪花",
+      "rank": 20,
+      "package_id": "E2E7777A-A712-40F7-9291-3CF259CB2987",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "气泡",
+      "rank": 21,
+      "package_id": "D376733B-511F-4BFB-A973-A2B000F7CD81",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "星星拖尾",
+      "rank": 22,
+      "package_id": "256E23AB-85E5-4345-9ECA-665D253CF5E2",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "桃心",
+      "rank": 23,
+      "package_id": "CF7D68DD-B1AD-45B2-85EA-0A59E97D98C0",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "跃动星光",
+      "rank": 24,
+      "package_id": "FAB6397B-73D9-4F39-AB26-9D1C44F3AA5C",
+      "aspect_ratio": 15
+    },
+    {
+      "name": "礼物",
+      "rank": 25,
+      "package_id": "3767C553-2A4B-4616-A153-D544604DA846",
+      "aspect_ratio": 15
+    }
+  ]
+}

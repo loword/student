@@ -1,0 +1,4 @@
+#Tue Jan 29 17:35:20 CST 2019
+base.0=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+renamed.0=classes.dex
+file.0=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

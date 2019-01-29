@@ -1,0 +1,29 @@
+{
+	"fxInfoList":[
+		{
+			"name":"逐字掉落",
+			"fxFileName":"7F3FB6A6-BF56-4A67-ACED-CB502F4F7DBF.captionstyle",
+			"fxPackageId":"7F3FB6A6-BF56-4A67-ACED-CB502F4F7DBF",
+			"fxLicFileName":"7F3FB6A6-BF56-4A67-ACED-CB502F4F7DBF.lic",
+			"imageName":"7F3FB6A6-BF56-4A67-ACED-CB502F4F7DBF.png",
+			"fitRatio":"3"
+		},
+		{
+			"name":"行摄之旅",
+			"fxFileName":"809E8BB4-8E29-4E84-B1F0-FEEA23564B4A.captionstyle",
+			"fxPackageId":"809E8BB4-8E29-4E84-B1F0-FEEA23564B4A",
+			"fxLicFileName":"809E8BB4-8E29-4E84-B1F0-FEEA23564B4A.lic",
+			"imageName":"809E8BB4-8E29-4E84-B1F0-FEEA23564B4A.png",
+			"fitRatio":"3"
+		},
+		{
+			"name":"时尚闪现",
+			"fxFileName":"5DCC70E9-122F-455E-A72E-35FE2FACEF02.captionstyle",
+			"fxPackageId":"5DCC70E9-122F-455E-A72E-35FE2FACEF02",
+			"fxLicFileName":"5DCC70E9-122F-455E-A72E-35FE2FACEF02.lic",
+			"imageName":"5DCC70E9-122F-455E-A72E-35FE2FACEF02.png",
+			"fitRatio":"15"
+		}
+	]
+}
+

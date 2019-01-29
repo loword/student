@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTranslucent"
+    android:orientation="vertical"
+    android:layout_marginRight="13dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="@mipmap/beauty_shape_face_thin"/>
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4D4F51"
+        android:textSize="15sp"
+        android:text="瘦脸"
+        android:layout_below="@+id/item_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/item_select"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="@drawable/beauty_shape_select_shape"
+        android:visibility="invisible"/>
+</RelativeLayout>

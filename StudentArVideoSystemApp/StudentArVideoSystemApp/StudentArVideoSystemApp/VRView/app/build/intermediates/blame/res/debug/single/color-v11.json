@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/peterliu/.android/build-cache/042d286e240bc94e6cae3f863c570b3ff8ec9519/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/peterliu/.android/build-cache/042d286e240bc94e6cae3f863c570b3ff8ec9519/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

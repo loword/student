@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+
+    defaultConfig {
+        applicationId "com.meishe.videoshow"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "2.4.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a"  // 指定要ndk需要兼容的架构(这样其他依赖包里mips,x86,armeabi,arm-v8之类的so会被过滤掉)
+        }
+        flavorDimensions "versionCode"
+    }
+
+    task libCopy(type: Copy) {
+        copy {
+            from '../../../../lib/android_armv7'
+            into 'src/main/jniLibs/armeabi-v7a'
+            include '*.so'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs './libs', '../../../../extrasdk'
+        }
+    }
+    productFlavors {
+        _360 {}
+        tencent {}
+        baidu {}
+        oppo {}
+        vivo {}
+        huawei {}
+        xiaomi {}
+    }
+    productFlavors.all {
+            //批量修改，类似一个循序遍历
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    //对生成的apk进行一些简单的配置
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def buildName = "com.meishe"
+            def type = variant.buildType.name
+            def releaseApkName = buildName + '_' + variant.productFlavors.get(0).name + '_' + type + "_" + versionName + '_' + releaseTime() + '.apk'
+            outputFileName = releaseApkName
+        }
+    }
+}
+
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd--HH-mm-ss", TimeZone.getTimeZone("GMT+8"))
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation fileTree(include: ['*.jar'], dir: '../../../../lib/android_jar')
+    implementation(name: 'library-core-release', ext: 'aar')
+    implementation(name: 'extension-flac-release', ext: 'aar')
+    implementation(name: 'nvconvertorlib', ext: 'aar')
+    implementation(name: 'STMobileJNI', ext: 'aar')
+    implementation 'com.android.support:design:25.1.0'
+    implementation 'com.android.support:appcompat-v7:25.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:recyclerview-v7:25.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.github.bumptech.glide:glide:4.0.0'
+    testImplementation 'junit:junit:4.12'
+}

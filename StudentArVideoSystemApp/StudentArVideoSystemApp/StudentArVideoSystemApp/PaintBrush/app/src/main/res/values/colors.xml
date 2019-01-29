@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ff242728">#242728</color>
+    <color name="ffffffff">#ffffffff</color>
+    <color name="ff000000">#000000</color>
+
+    <color name="ff4a90e2">#4a90e2</color>
+    <color name="ms994a90e2">#994a90e2</color>
+    <color name="msff242728">#ff363738</color>
+
+    <color name="white">#ffffff</color>
+    <color name="colorTranslucent">#00000000</color>
+
+</resources>

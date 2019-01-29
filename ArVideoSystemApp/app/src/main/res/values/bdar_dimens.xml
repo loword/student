@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!-- capture相关 -->
-    <dimen name="bdar_capture_button_background_size">58dp</dimen>
-    <dimen name="bdar_capture_button_size">44dp</dimen>
-    <dimen name="bdar_capture_progressbar_size">59dp</dimen>
-</resources>

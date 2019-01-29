@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meishe.arface2.MainActivity">
+
+    <com.meicam.sdk.NvsLiveWindow
+        android:id="@+id/liveWindow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onLiveWindowClicked"
+        />
+
+    <TextView
+        android:id="@+id/shootingTimeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#4a96e5"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="00:00"
+        />
+
+    <Button
+        android:id="@+id/switchBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/switch_camera_btn" />
+
+    <Button
+        android:id="@+id/memoryInfoBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/memoryInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60dp"
+        android:text="Memory info"
+        android:textAlignment="center"
+        android:textColor="#4a96e5"
+        android:textSize="14sp" />
+
+
+    <com.meishe.arface2.SetUpCtl
+        android:id="@+id/setUpCtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+    </com.meishe.arface2.SetUpCtl>
+
+
+</RelativeLayout>

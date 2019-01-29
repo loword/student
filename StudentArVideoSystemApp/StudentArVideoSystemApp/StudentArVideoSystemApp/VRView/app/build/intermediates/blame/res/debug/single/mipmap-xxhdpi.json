@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['init',['init',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a263cb400b3e0b1e67003e1c4d3e71d77',1,'com.meicam.sdk.NvsStreamingContext.init(Context ctx, String sdkLicenseFilePath, int flags)'],['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a1643eaf2e3f2f6e9ff2765117eb36363',1,'com.meicam.sdk.NvsStreamingContext.init(Activity mainActivity, String sdkLicenseFilePath, int flags)'],['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#afcc5e57c6009cf5b516fd87b1d9cf891',1,'com.meicam.sdk.NvsStreamingContext.init(Activity mainActivity, String sdkLicenseFilePath)']]],
+  ['insertbeautycapturevideofx',['insertBeautyCaptureVideoFx',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a3b10b728c3ede3dcd0424d72c8043556',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['insertbeautyfx',['insertBeautyFx',['../classcom_1_1meicam_1_1sdk_1_1NvsVideoClip.html#a49a0a615796eff2b2a592b41e766f2fa',1,'com::meicam::sdk::NvsVideoClip']]],
+  ['insertbuiltincapturevideofx',['insertBuiltinCaptureVideoFx',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#af06228637e1290526d4a681a30e9460f',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['insertbuiltinfx',['insertBuiltinFx',['../classcom_1_1meicam_1_1sdk_1_1NvsVideoClip.html#a4a3cd88bce375d32e61e5c6f3e0e4576',1,'com::meicam::sdk::NvsVideoClip']]],
+  ['insertclip',['insertClip',['../classcom_1_1meicam_1_1sdk_1_1NvsAudioTrack.html#a0e2f2523c4ad253e9e96aac5ac955bfb',1,'com.meicam.sdk.NvsAudioTrack.insertClip(String filePath, int clipIndex)'],['../classcom_1_1meicam_1_1sdk_1_1NvsAudioTrack.html#a8cb6bfccb49595db9294c995eea7a991',1,'com.meicam.sdk.NvsAudioTrack.insertClip(String filePath, long trimIn, long trimOut, int clipIndex)'],['../classcom_1_1meicam_1_1sdk_1_1NvsVideoTrack.html#a560b5011e60f5c6aaf69569fa9be4778',1,'com.meicam.sdk.NvsVideoTrack.insertClip(String filePath, int clipIndex)'],['../classcom_1_1meicam_1_1sdk_1_1NvsVideoTrack.html#a73e16cbe34982713f2a357551375943e',1,'com.meicam.sdk.NvsVideoTrack.insertClip(String filePath, long trimIn, long trimOut, int clipIndex)']]],
+  ['insertcustomcapturevideofx',['insertCustomCaptureVideoFx',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a3baf31fdf6fd68b523bdc680b8f6fc29',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['insertcustomfx',['insertCustomFx',['../classcom_1_1meicam_1_1sdk_1_1NvsVideoClip.html#ad2c064ff2a281c06fe6d45c7407eecc8',1,'com::meicam::sdk::NvsVideoClip']]],
+  ['insertfx',['insertFx',['../classcom_1_1meicam_1_1sdk_1_1NvsAudioClip.html#a389d4064bb6333e3f1659a50ba19e98c',1,'com::meicam::sdk::NvsAudioClip']]],
+  ['insertpackagedcapturevideofx',['insertPackagedCaptureVideoFx',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#af6b588c3feb7b33a2865420ac234906f',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['insertpackagedfx',['insertPackagedFx',['../classcom_1_1meicam_1_1sdk_1_1NvsVideoClip.html#a75c9f26edd8e19180d95ba0c70e93c4d',1,'com::meicam::sdk::NvsVideoClip']]],
+  ['installassetpackage',['installAssetPackage',['../classcom_1_1meicam_1_1sdk_1_1NvsAssetPackageManager.html#a99b71082888aea252d16df4efe227ed9',1,'com::meicam::sdk::NvsAssetPackageManager']]],
+  ['instance',['instance',['../classcom_1_1meicam_1_1sdk_1_1NvsCheckExpirationOnline.html#ad9c1fa0a6557cc44890644a6d7789548',1,'com::meicam::sdk::NvsCheckExpirationOnline']]],
+  ['iscapturedevicebackfacing',['isCaptureDeviceBackFacing',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#aa374ee23c7e99722dc749c537d39bf8d',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['iscustomanimatedsticker',['isCustomAnimatedSticker',['../classcom_1_1meicam_1_1sdk_1_1NvsAssetPackageManager.html#a0aa83c35fe35b4d40ae759ea57f9f6be',1,'com::meicam::sdk::NvsAssetPackageManager']]],
+  ['isdefaultcaptionfade',['isDefaultCaptionFade',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#ab3d083052626b1084b8adce798ab5890',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['isfacetracking',['isFaceTracking',['../classcom_1_1meicam_1_1sdk_1_1NvsARFaceContext.html#aa491ee6ee7aba1295be3bcb93b38359e',1,'com::meicam::sdk::NvsARFaceContext']]],
+  ['isflashon',['isFlashOn',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#aad5c75de9b80022ef01a4f09619ebe78',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['ismainthread',['isMainThread',['../classcom_1_1meicam_1_1sdk_1_1NvsUtils.html#af2b89103c945e1973c641ec5da2e491c',1,'com::meicam::sdk::NvsUtils']]],
+  ['ispanoramic',['isPanoramic',['../classcom_1_1meicam_1_1sdk_1_1NvsTimelineAnimatedSticker.html#addc4f84dfb877bae5961fe123d9b64be',1,'com.meicam.sdk.NvsTimelineAnimatedSticker.isPanoramic()'],['../classcom_1_1meicam_1_1sdk_1_1NvsTimelineCaption.html#a9e8e19d108aa275b39ba8c3da1780e7a',1,'com.meicam.sdk.NvsTimelineCaption.isPanoramic()']]],
+  ['isparticlefx',['isParticleFX',['../classcom_1_1meicam_1_1sdk_1_1NvsAssetPackageManager.html#aaa95660ed05ae00d65350d72e0d35287',1,'com::meicam::sdk::NvsAssetPackageManager']]],
+  ['isrecordingpaused',['isRecordingPaused',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a3c978ba11755b369adc7362cb896fab2',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['issdkauthorised',['isSdkAuthorised',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#ad7166cba9d92426f7a33c453e67eecdc',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['issecondarystreamingengineopened',['isSecondaryStreamingEngineOpened',['../classcom_1_1meicam_1_1sdk_1_1NvsStreamingContext.html#a7ac61abcbcccd794962643bf41703216',1,'com::meicam::sdk::NvsStreamingContext']]],
+  ['issoftwaredeocedused',['isSoftWareDeocedUsed',['../classcom_1_1meicam_1_1sdk_1_1NvsVideoClip.html#a37daaf4c0c8c02c94bfa7d3a6db421ea',1,'com::meicam::sdk::NvsVideoClip']]]
+];

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87a5ed10-d68b-4cac-b8f0-5ea368745b8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/libs/boxpaddle.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/libs/dumixar.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/androidTest/java/com/supe/stu/video/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/aisi_v02_src/0841ec69-438f-408e-bb33-daadd8ec65df.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/aisi_v02_src/16828784690983913643_aisihat_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/aisi_v02_src/aisi_v03.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/aisi_v02_src/e8e72cf2-2386-4335-a985-87fab48c4117.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/aisi_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chaoliuyanjing_v02_src/5835bd7d-4003-4c42-af84-b5af2fee5620.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chaoliuyanjing_v02_src/6ae9b465-a33c-4e2a-a3dd-a4be052661cc.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chaoliuyanjing_v02_src/chaoliuyanjing_v03.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chaoliuyanjing_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chixigua_v02_gai_src/35171330-8820-45fd-88c4-4f0765cac0a6.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chixigua_v02_gai_src/91e44b9d-071a-4e39-8172-477e1da8bcc3.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chixigua_v02_gai_src/chixigua_v02_gai.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/chixigua_v02_gai_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/017d2807-5e6d-4126-a8a0-e0876be679fa.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/0b466a9a-5e9e-41bb-921c-6facb1edf505.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/1167957139872935525_erkangbi_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/18f8a00f-12a3-49a7-9bf3-187836eeed29.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/34e1f36b-7e93-4ad8-b645-734432dfcbd7.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/5dd43d9d-e2d3-469d-928f-ee930e8f75f0.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/d8d00d6f-0549-4d07-93fe-b13b8909594b.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/erkang_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/erkang_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/06ae020e-37fc-4f0a-aa9d-4158e8222324.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/18bac1ff-724c-4938-ab30-a831de138523.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/5d7e4ed2-f300-490e-b88a-c602754ca6c0.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/630252ff-eb6d-489a-b2f9-85617535cad8.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/6f7887ba-3db9-4913-b3b3-79bef8a68e64.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/example_2d_v03.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/f090866f-01bc-4a77-82a0-d60e7c407b15.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/example_2d_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/49eb7a1c-d015-492a-9184-9a4f85535c82.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/4c8d6c1f-c3eb-4f2b-be96-f4cb36138045.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/9ad875f4-c6c6-4e2a-91eb-fb645fe011be.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/b3b434bb-6713-4233-901d-292ffc038431.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/fengkaobiguo_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/fengkaobiguo_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huajidun_v01_src/64a440a4-a629-4751-9603-d96fa7eae389.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huajidun_v01_src/d69ea3b3-2c42-429f-92f1-fea9034a7c96.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huajidun_v01_src/huajidun_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huajidun_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_fense_v02_src/429d793b-eda4-4a88-ab0b-a90067ccb20a.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_fense_v02_src/e8358f67-24bf-4259-be2c-1bf69ffb72a8.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_fense_v02_src/huangguan_fense_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_fense_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/25a9ee3a-23d4-4b9c-ad5f-d49a8a4e215c.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/673aea41-0dfb-4d52-8b20-99562e03d97a.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/e3668f65-7bb0-48bf-b363-bd23f966a731.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/f8e96a29-05f9-4499-8dd2-fc04bb782c0e.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/huangguan_v03.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/huangguan_v03_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kakaxi_v01_src/9454922116380010430_huoying_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kakaxi_v01_src/kakaxi_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kakaxi_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kejimao_v03_src/15455f79-8018-4ea2-8fc5-fbfa7a60fa71.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kejimao_v03_src/5095eb4e-ec0c-42c6-88c1-4162fcb52157.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kejimao_v03_src/kejimao_v03.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kejimao_v03_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/1cebc3b5-b664-454d-8edb-d5f29e11cfc5.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/83916993-e5cc-47ef-8c66-69dadba76db1.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/b3a7846c-4148-49d6-b0c2-1c3e35585df5.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/d3e7a561-5832-4506-a507-1207b80065a3.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/kenan_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/kenan_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/3359c16d-b223-425c-aec3-d7e761a61eed.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/634fc169-c9be-496f-9088-11480ba80823.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/82683594-f5a5-442a-bf27-aaae2b26fbbf.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/b25e7843-b2f5-4521-8b37-8e5ca0e5b91e.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/peiqi_v02_src/peiqi_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/pingdiguo_v01_src/520ea41a-7060-4697-8ca0-0e8065b00770.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/pingdiguo_v01_src/ebbc15e1-0434-4f8a-8177-09f2bac5fd26.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/pingdiguo_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/pingdiguo_v01_src/pingdiguo_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/setaoxin_v02_src/b6a45783-9b2c-4eea-98b9-ca225bb25747.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/setaoxin_v02_src/ba8355c0-0406-42c9-b664-2b2fa351dbd1.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/setaoxin_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/setaoxin_v02_src/setaoxin_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/toukui_v02_src/157edd74-77a8-4a47-8267-f72883de3741.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/toukui_v02_src/70e431a4-c5b1-4ddb-85ff-2b5ff5b23e96.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/toukui_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/toukui_v02_src/toukui_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/13573060987481433615_bizi_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/13573060987481433615_saihong_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/87ec22f4-5261-446d-949b-1a7229e05157.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/dd3fbdcc-9235-4029-8814-6e2eb05a80f2.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaolu_v01_src/xiaolu_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/1059344623124142539_erduo.00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_bizi_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/8451174115824740639_huzi.00017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaomaomi_v01_src/xiaomaomi.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxingxing_v01_src/5286da56-579e-4b7c-8440-fd66382826d4.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxingxing_v01_src/5a75acd4-e3ab-4836-94bc-402f58c9c94c.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxingxing_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxingxing_v01_src/xiaoxingxing_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/17738904513591203852_bizi.00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/7ab30916-b87a-4911-bd25-96efb2425584.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/82e4bf54-cb8e-49b1-907d-db3ea5b37534.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/aceefabf-a719-4a56-9424-79a75f60a8f5.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/e9488440-ec92-42fc-9612-45eea98b7bac.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiaoxiongmao_src/xiaoxiongmao.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiongxiongbingjiling_v02_src/3070339063001466590_xiaxionger_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiongxiongbingjiling_v02_src/4ecbf9c6-e843-4924-b9ca-bbc6e6c655cf.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiongxiongbingjiling_v02_src/a0e5649e-cae9-4d28-84c9-dcec10002943.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiongxiongbingjiling_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/xiongxiongbingjiling_v02_src/xiongxiongbingjiling_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/0e2e32f4-a1f8-473c-997a-d861d24b0df8.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/26c90be4-876c-450c-8833-f2f069036699.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/39300e46-d4c4-4eb1-852f-b7d42ee97e2a.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/6208364744667392208_zhubizi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/a5085b39-b046-425f-974a-d497b9b0ad3d.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/d2873d63-c8c8-425d-92f1-a23e9b94e747.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/d50f1606-57ad-4e54-b6dd-6a068e0c3f47.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yezhu_v02_src/yezhu_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v02_src/2a7b4790-836b-4e43-8b45-c0c0243558b5.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v02_src/90dbcb8d-bd7b-4c06-a615-f7a58629dfb6.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v02_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v02_src/yinghua_v02.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v1_src/4d337dc5-04e9-42b2-9ed9-b0a4d364f03c.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v1_src/9f5d9c7c-3088-4d10-8ffc-325de8f0394a.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v1_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/yinghua_v1_src/yinghua_fenhong.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/5794fdc7-3c58-431d-a867-25ade4086a82.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/c54da644-1c04-420a-bc2d-266f33a361bd.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/d7caf8f2-60ed-46ef-a7cd-b758fbe7e5bc.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/d9911197-8080-497f-ba71-e1e1a4f43d62.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Masks/zhishangpenwu_v01_src/zhishangpenwu_v01.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Models/S45150 LiveDriver BaiduAndroidHeavyAutoCalibration.imbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Models/S45150 LiveDriver BaiduAndroidLightAutoCalibration.imbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/Models/S45150 LiveDriver BaiduAndroidMediumAutoCalibration.imbin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/aip.license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/SkinSmoothSimple.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/SkinSmoothSimple.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/SkinWhitenSimple.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/SkinWhitenSimple.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/beach_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/beyond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/fresh_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hongchun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hongrun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/hts9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/huiyi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lively.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/lut111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/nihong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/pure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/romeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/rose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/selffilter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/shaonv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/sincere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/teen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/uncommon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/urban.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/vivid_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/weiguang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/years.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter/new/yuantu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/Filter/ar/res/filter_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/beauty_whiten_thinface/SmallJaw_demo_f_v05_cs_v03_cs.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/beauty_whiten_thinface/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/big_eye/BigEye_demo_f.osgb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/big_eye/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/face/face_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/masks_update_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/res_update_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/assets/vip_list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ARActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/FaceARApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/FaceUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/TestActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/camera/ARCameraCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/camera/ARCameraManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/camera/ARCameraOperationCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/draw/ARDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/draw/ARRenderCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/draw/ARRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/draw/ARViewCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/permission/FaceARPermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/permission/PendingAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/permission/PermissionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/permission/PermissionArrayAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/permission/Permissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/FaceBottomMenuMgr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/FaceBoxView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/FaceFilterStyleRecyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/FaceRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/FaceStickerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/HorizontalListView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/TitleBarUIMgr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/TouchGraphBoxView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/rotateview/IRotateView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/rotateview/RotateImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/rotateview/RotateViewGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/ui/rotateview/RotateViewUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/utils/AssetsReplaceHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/utils/DeviceInfoUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/java/com/supe/stu/video/utils/FacerARAssetsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libAR2DClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libAREngineCpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libARSlamClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libBDSpeechDecoder_V1.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libBaiduSpeechSDK.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libImgRecognition.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libImgSegClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libaip-native-auth.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libgnustl_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libopencv_java3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libpaddle_jni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libprotobuf-lite.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/arm64-v8a/libvad.dnn.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libAR2DClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libAREngineCpp.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libARSlamClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libBDSpeechDecoder_V1.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libBaiduSpeechSDK.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libImgRecognition.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libImgSegClient.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libaip-native-auth.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libgnustl_shared.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libopencv_java3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libpaddle_jni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libprotobuf-lite.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/jniLbs/armeabi-v7a/libvad.dnn.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/anim/activity_close.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/anim/activity_open.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/anim/pophidden_anim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/anim/popshow_anim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/color/bdar_viewpager_item_text_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_back_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_back_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_camera_change_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_camera_change_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_flash_disable_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_flash_disable_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_flash_enable_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_drawable_icon_titlebar_flash_enable_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_beauty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_filter_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_seekbar_drawable.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_seekbar_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_sticker_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/bdar_face_track_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/beach_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/beyond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/erkang_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_city.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_lip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_memory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_neon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/filter_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/fresh_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/hts9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/huangguan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_aisi_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_chaoyanjing_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_chigua_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_fanshu_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_gouhoukeji_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_huajidun_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_huoyingkakaxi_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_kenan_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_pingdiguo_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_sese_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_toukui_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/icon_video_zhishang_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lively.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/lut111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/pure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/romeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/rose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/selffilter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/sincere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/snow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/teen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/tip_brow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/tip_head_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/tip_mouth_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/uncommon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/vivid_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/xiaolu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/xiaoxingxing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/xiaoxiongmao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/xiongxiongbinjilin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/years.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/yezhu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/yinghua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xhdpi/yinghua_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/bdar_drawable_capture_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/bdar_drawable_icon_capture_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/bdar_drawable_icon_capture_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable-xxhdpi/bdar_drawable_icon_record_flashing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_btn_back_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_btn_camera_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_btn_capture_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_btn_flash_disable_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_btn_flash_enable_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_drawable_shape_corner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_face_panel.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_face_seekbar_process.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/bdar_face_sticker_selector_item_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/drawable/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/activity_test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_face_bottom_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_face_filter_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_face_sticker_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_layout_arui.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_layout_face_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/layout/bdar_toast_custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/bdar_dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/src/test/java/com/supe/stu/video/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CameraSizeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/CommonHandlerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/ICamera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/easy/EasyCamera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/easy/EasyCameraCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../camera/src/main/java/com/baidu/ar/camera/easy/IEasyCamera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-412585670">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../musicApp/MusicLake" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../testCode/js/JsBridge" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../testCode/jsbridge/JsBridge" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../testCode/umengDemo/MultiFunctionAndroidDemo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1920" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>Chrome OSCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data flow analysisC/C++</id>
+          </State>
+          <State>
+            <id>Data flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>FunctionsC/C++</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralC/C++</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Kotlin Android</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method metricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Type checksC/C++</id>
+          </State>
+          <State>
+            <id>Unused codeC/C++</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="28155cc79805" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87a5ed10-d68b-4cac-b8f0-5ea368745b8b" name="Default Changelist" comment="" />
+      <created>1548754462331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548754462331</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1680" height="1050" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32967034" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3291536" />
+      <window_info anchor="right" id="Translate" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

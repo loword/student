@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">画笔</string>
+    <string name="videoEdit">视频编辑</string>
+    <string name="nextStep">下一步</string>
+    <string name="brush">画笔</string>
+    <string name="select_video">选择视频</string>
+    <string name="single_select_one">已选择</string>
+    <string name="selectMedia">选中内容</string>
+    <string name="setSelectMedia">已选%1$d项</string>
+    <string name="compile">生成</string>
+    <string name="paint_brush_out">退出画笔操作</string>
+    <string-array name="select_media">
+        <item>所有内容</item>
+        <item>视频</item>
+        <item>图片</item>
+    </string-array>
+</resources>

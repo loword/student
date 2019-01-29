@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>美摄SDK For Android: 疑难问题集锦</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">美摄SDK For Android
+   &#160;<span id="projectnumber">2.4.3.14</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">疑难问题集锦 </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><ol type="1">
+<li><a class="el" href="QuestionList.md.html#如何生成方形视频">如何生成方形视频？</a></li>
+<li><a class="el" href="QuestionList.md.html#如何生成带有美肤特效的视频">如何生成带有美肤特效的视频？</a></li>
+<li><a class="el" href="QuestionList.md.html#如何将多个素材生成一个视频文件">如何将多个素材生成一个视频文件？</a></li>
+<li><a class="el" href="QuestionList.md.html#如何实现画中画">如何实现画中画？</a></li>
+<li><a class="el" href="QuestionList.md.html#如何添加水印">如何添加水印？</a></li>
+<li><a class="el" href="QuestionList.md.html#从录制界面到播出界面没有问题，返回之后，录制界面的预览黑屏">从录制界面到播出界面没有问题，返回之后，录制界面的预览黑屏</a></li>
+<li><a class="el" href="QuestionList.md.html#NvsColor设置不生效">NvsColor设置不生效</a></li>
+<li><a class="el" href="QuestionList.md.html#从录制界面到播出界面，播出界面的Livewindow闪黑然后播出正常">从录制界面到播出界面，播出界面的Livewindow闪黑然后播出正常</a></li>
+<li><a class="el" href="QuestionList.md.html#某些手机录制的视频播放时画面方向不正常？">某些手机录制的视频播放时画面方向不正常？</a></li>
+<li><a class="el" href="QuestionList.md.html#使用美摄SDK时，代码混淆出错？">使用美摄SDK时，代码混淆出错？</a></li>
+</ol>
+<hr/>
+ <h1><a class="anchor" id="详细解释"></a>
+详细解释</h1>
+<h2><a class="anchor" id="如何生成方形视频"></a>
+1.如何生成方形视频?</h2>
+<p>假设拍摄的视频是竖着拍摄分辨率1280*720，我们生成720*720的视频。 <br />
+1)创建timeline </p><pre class="fragment">    NvsVideoResolution videoEditRes = new NvsVideoResolution();
+    videoEditRes.imageWidth = 720;
+    videoEditRes.imageHeight = 720;
+    videoEditRes.imagePAR = new NvsRational(1, 1);
+    NvsRational videoFps = new NvsRational(25, 1);
+    NvsAudioResolution audioEditRes = new NvsAudioResolution();
+    audioEditRes.sampleRate = 48000;
+    audioEditRes.channelCount = 2;
+    //创建时间线
+    m_timeline = streamingContext.createTimeline(videoEditRes, videoFps, audioEditRes); 
+</pre><p>2)创建轨道和片段,path是片段的绝对路径。 </p><pre class="fragment">    NvsVideoTrack videoTrack = m_timeline.appendVideoTrack();
+    NvsVideoClip clip = videoTrack.appendClip(path);    
+</pre><p>3)放大视频。 </p><pre class="fragment">    clip.setPanAndScan(0, 1);   
+</pre><p>详细设置参见<a class="el" href="Pan_Scan.md.html">摇摄与扫描(Pan and Scan)</a> <br />
+4)生成视频，path是生成视频的路径。 </p><pre class="fragment">    m_streamingContext.compileTimeline(m_timeline, 0, m_timeline.getDuration(), path, NvsStreamingContext.COMPILE_VIDEO_RESOLUTION_GRADE_720
+    , NvsStreamingContext.COMPILE_BITRATE_GRADE_HIGH, 0);
+</pre><h2><a class="anchor" id="如何生成带有美肤特效的视频"></a>
+2.如何生成带有美肤特效的视频?</h2>
+<p>1)创建timeline、轨道、片段同问题1。 <br />
+2)添加美肤特技。 </p><pre class="fragment">    clip.appendBeautyFx();//此处只在第一个片段上添加了美肤特技。其他片段添加美肤照此处理
+</pre><p>3)生成视频。 </p>
+<h2><a class="anchor" id="如何将多个素材生成一个视频文件"></a>
+3.如何将多个素材生成一个视频文件？</h2>
+<p>1)在创建轨道和片段的时候，添加多个素材创建出来多个片段。 </p><pre class="fragment">    NvsVideoTrack videoTrack = m_timeline.appendVideoTrack();
+    NvsVideoClip clip1 = videoTrack.appendClip(path1);
+    NvsVideoClip clip2 = videoTrack.appendClip(path2);
+    NvsVideoClip clip3 = videoTrack.appendClip(path3);
+    NvsVideoClip clip4 = videoTrack.appendClip(path4);
+    NvsVideoClip clip5 = videoTrack.appendClip(path5);
+</pre><p>2)生成视频。 </p><pre class="fragment">    m_streamingContext.compileTimeline(m_timeline, 0, m_timeline.getDuration(), path, NvsStreamingContext.COMPILE_VIDEO_RESOLUTION_GRADE_720
+    , NvsStreamingContext.COMPILE_BITRATE_GRADE_HIGH, 0));
+</pre><p>即可生成1个文件。 </p>
+<h2><a class="anchor" id="如何实现画中画"></a>
+4.如何实现画中画？</h2>
+<p>简单的画中画，用两个不同分辨率的素材例如一个横着拍摄的素材和一个竖着拍摄的素材，分别添加到两个轨道上，就可以看到两个素材叠加在一起的效果。另外Transform 2D特技可以实现视频的放大缩小、旋转、给视频加透明度。 </p><pre class="fragment">    NvsVideoTrack track1 = m_timeline.appendVideoTrack();
+    NvsVideoTrack track2 = m_timeline.appendVideoTrack();
+    NvsVideoClip clip1 = track1.appendClip(path1);
+    NvsVideoClip clip2 = track2.appendClip(path2);
+</pre><h2><a class="anchor" id="如何添加水印"></a>
+5.如何添加水印？</h2>
+<p>添加水印有两种方式：一是通过贴纸功能来实现的，需要用户发给一张带水印的图片，我们来进行制作。制作完的水印文件是UUID为文件名，.animatedsticker为扩展名的一个文件。有了这个文件，就可以通过我们的API实现添加水印的功能。 </p><pre class="fragment">    StringBuilder m_stickerId = new StringBuilder();
+    packagePath = "assets:/89740AEA-80D6-432A-B6DE-E7F6539C4121.animatedsticker";
+    error = m_streamingContext.getAssetPackageManager().installAssetPackage(packagePath, null, NvsAssetPackageManager.ASSET_PACKAGE_TYPE_ANIMATEDSTICKER, true, m_stickerId);
+        if (error != NvsAssetPackageManager.ASSET_PACKAGE_MANAGER_ERROR_NO_ERROR
+                &amp;&amp; error != NvsAssetPackageManager.ASSET_PACKAGE_MANAGER_ERROR_ALREADY_INSTALLED) {
+        Log.e(TAG, "Failed to install sticker package!");
+    }
+
+    m_timeline.addAnimatedSticker(0, m_timeline.getDuration(),m_stickerId.toString());
+</pre><p>二是通过NvsTimeline类里的addWatermark()接口添加水印。 </p><pre class="fragment">    m_TimeLine.addWatermark(path, 0, 0, 1, NvsTimeline.NvsTimelineWatermarkPosition_TopLeft, 0, 0);//path是水印文件的路径，须为PNG或JPG文件
+</pre><h2><a class="anchor" id="从录制界面到播出界面没有问题，返回之后，录制界面的预览黑屏"></a>
+6.从录制界面到播出界面没有问题，返回之后，录制界面的预览黑屏</h2>
+<p>检查NvsStreamingContext类里的connectCapturePreviewWithLiveWindow()有没有调用或者调用出了问题，亦或是在调用startCapturePreivew()之后，调用了NvsStreamingContext上的stop()。同样，从录制界面到播出界面，播出黑屏，可能是调用playbackTimeline()后，又调用NvsStreamingContext的stop()。还有可能是NvsStreamingContext上的connectTimelineWithLiveWindow方法没有调用或调用出了问题。</p>
+<h2><a class="anchor" id="NvsColor设置不生效"></a>
+7.NvsColor设置不生效？</h2>
+<p>NvsClor类成员是Float类型，R,G，B,A取值是0到1，如果所给颜色值是100，100，100，则需要分别除以255。</p>
+<h2><a class="anchor" id="从录制界面到播出界面，播出界面的Livewindow闪黑然后播出正常"></a>
+8.从录制界面到播出界面，播出界面的Livewindow闪黑然后播出正常</h2>
+<p>调用playbackTimeline播出需要预览一段时间，为了避免这个问题，需要先调用seekTimeline到0的位置，再播出，就不会闪黑了。</p>
+<h2><a class="anchor" id="某些手机录制的视频播放时画面方向不正常？"></a>
+9.某些手机录制的视频播放时画面方向不正常？</h2>
+<p>可能是有些手机播放器不支持自动旋转，会造成视频播放时画面方向不正常，因而导致用户对录制的视频播产生误导。 </p>
+<h2><a class="anchor" id="使用美摄SDK时，代码混淆出错？"></a>
+10.使用美摄SDK时，代码混淆出错？</h2>
+<p>使用代码混淆时，注意避免对下面的几个类进行混淆，正确避免方式如下： </p><pre class="fragment">-keep class com.cdv.**  {*;}
+-keep class com.meicam.**  {*;}
+-keep class org.qtproject.**  {*;}</pre> </div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

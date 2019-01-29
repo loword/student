@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VRView</string>
+    <string name="playVideo">播放</string>
+    <string name="addCaption">添加字幕</string>
+    <string name="addSticker">添加贴纸</string>
+    <string name="drag">手指拖动</string>
+</resources>

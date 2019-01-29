@@ -1,0 +1,74 @@
+{
+  "brush_color": [
+    {
+      "id": 0,
+      "color": "#FF4A4A",
+      "color_caf_path1": "assets:/brush/texture1/hong.caf",
+      "color_caf_path2": "assets:/brush/texture2/hong.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 1,
+      "color": "#FF9A43",
+      "color_caf_path1": "assets:/brush/texture1/cheng.caf",
+      "color_caf_path2": "assets:/brush/texture2/cheng.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 2,
+      "color": "#FFE02B",
+      "color_caf_path1": "assets:/brush/texture1/huang.caf",
+      "color_caf_path2": "assets:/brush/texture2/huang.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 3,
+      "color": "#C0FF5C",
+      "color_caf_path1": "assets:/brush/texture1/lv.caf",
+      "color_caf_path2": "assets:/brush/texture2/lv.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 4,
+      "color": "#49FFE0",
+      "color_caf_path1": "assets:/brush/texture1/qin.caf",
+      "color_caf_path2": "assets:/brush/texture2/qin.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 5,
+      "color": "#5877E9",
+      "color_caf_path1": "assets:/brush/texture1/lan.caf",
+      "color_caf_path2": "assets:/brush/texture2/lan.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    },
+    {
+      "id": 6,
+      "color": "#B531FF",
+      "color_caf_path1": "assets:/brush/texture1/zi.caf",
+      "color_caf_path2": "assets:/brush/texture2/zi.caf",
+      "color_caf_width1": 65,
+      "color_caf_height1": 65,
+      "color_caf_width2": 80,
+      "color_caf_height2": 80
+    }
+  ]
+}

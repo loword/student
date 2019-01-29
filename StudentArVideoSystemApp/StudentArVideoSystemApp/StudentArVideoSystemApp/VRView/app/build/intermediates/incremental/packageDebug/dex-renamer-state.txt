@@ -1,0 +1,7 @@
+#Tue Jan 29 17:35:20 CST 2019
+base.0=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29c7fe925e31507b9bc50b28b305804cc5b0922f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a017346e091a582fb867398a986da6d7051a13d5/classes.dex
+base.1=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a017346e091a582fb867398a986da6d7051a13d5
+file.0=/Users/peterliu/code/student/ArVideoSystemApp/samples/android/VRView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29c7fe925e31507b9bc50b28b305804cc5b0922f/classes.dex
