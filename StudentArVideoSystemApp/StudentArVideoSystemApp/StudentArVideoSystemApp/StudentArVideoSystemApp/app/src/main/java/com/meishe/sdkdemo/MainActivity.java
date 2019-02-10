@@ -1,5 +1,6 @@
 package com.meishe.sdkdemo;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
@@ -93,11 +94,11 @@ public class MainActivity extends BasePermissionActivity implements OnItemClickL
         }
 
         initFragmentAndView();
-        NvsStreamingContext.SdkVersion sdkVersion = NvsStreamingContext.getInstance().getSdkVersion();
         String sdkVersionNum = "1.0.0";
         mainVersionNumber.setText(String.format(getResources().getString(R.string.versionNumber), sdkVersionNum));
     }
 
+    @SuppressLint("RestrictedApi")
     private void initFragmentAndView() {
         Map<Integer, List<String>> map = subListByItemCount();
         List<Fragment> mFragmentList;
@@ -201,15 +202,15 @@ public class MainActivity extends BasePermissionActivity implements OnItemClickL
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.iv_main_setting://设置
+            case R.id.iv_main_setting:
                 AppManager.getInstance().jumpActivity(this, ParameterSettingActivity.class, null);
                 return;
-            case R.id.iv_main_feedback://反馈
+            case R.id.iv_main_feedback:
                 AppManager.getInstance().jumpActivity(this, FeedBackActivity.class, null);
                 return;
         }
 
-        if (!hasAllPermission()) {//没有权限，则请求权限
+        if (!hasAllPermission()) {
             clickedView = view;
             checkPermissions();
         } else {
@@ -218,21 +219,22 @@ public class MainActivity extends BasePermissionActivity implements OnItemClickL
     }
 
     private void doClick(View view) {
-        if (view == null)
+        if (view == null) {
             return;
+        }
         switch (view.getId()) {
-            case R.id.iv_main_setting://设置
+            case R.id.iv_main_setting:
                 AppManager.getInstance().jumpActivity(this, ParameterSettingActivity.class, null);
                 break;
 
-            case R.id.layout_video_capture://拍摄
+            case R.id.layout_video_capture:
                 AppManager.getInstance().jumpActivity(this, CaptureActivity.class, null);
                 break;
 
-            case R.id.layout_video_edit://编辑
+            case R.id.layout_video_edit:
                 Bundle editBundle = new Bundle();
                 editBundle.putInt("visitMethod", Constants.FROMMAINACTIVITYTOVISIT);
-                editBundle.putInt("limitMediaCount", -1);//-1表示无限可选择素材
+                editBundle.putInt("limitMediaCount", -1);
                 AppManager.getInstance().jumpActivity(this, SelectMediaActivity.class, editBundle);
                 break;
             default:
@@ -246,7 +248,7 @@ public class MainActivity extends BasePermissionActivity implements OnItemClickL
                 } else if (tag.equals(getResources().getString(R.string.picInPic))) {
                     Bundle pipBundle = new Bundle();
                     pipBundle.putInt("visitMethod", Constants.FROMPICINPICACTIVITYTOVISIT);
-                    pipBundle.putInt("limitMediaCount", 2);//2表示选择两个素材
+                    pipBundle.putInt("limitMediaCount", 2);
                     AppManager.getInstance().jumpActivity(this, SelectMediaActivity.class, pipBundle);
                 } else if (tag.equals(getResources().getString(R.string.makingCover))) {
                     Bundle makeCoverBundle = new Bundle();
