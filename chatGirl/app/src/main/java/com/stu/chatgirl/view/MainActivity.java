@@ -1,5 +1,6 @@
 package com.stu.chatgirl.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -8,10 +9,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 import com.stu.chatgirl.R;
@@ -66,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         etMsg = findViewById(R.id.et_msg);
         btnSend = findViewById(R.id.btn_send);
         rvChat = findViewById(R.id.rv_chat);
-        rvChat.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        rvChat.setLayoutManager(new WrapContentLinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         list = new ArrayList<>();
         list.add(new Msg("你好呀！,我叫美美,我可以陪你聊天", 1));
         list.add(new Msg("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
@@ -98,10 +101,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if (url != null && !TextUtils.isEmpty(url)) {
                         list.add(new Msg("哼！自己打开看 。。。" + url, 1));
                     }
+                    handler.sendEmptyMessage(0);
                 } catch (IOException e) {
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast toast = Toast.makeText(MainActivity.this, "系统维护中，请稍等...", Toast.LENGTH_SHORT);
+                            toast.setGravity(Gravity.CENTER, 0, 0);
+                            toast.show();
+                        }
+                    });
                     Log.e("IOException", e.toString());
                 }
-                handler.sendEmptyMessage(0);
             }
         }.start();
 
@@ -142,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onSetting(View view) {
+        startActivity(new Intent(this, SettingActivity.class));
     }
 
 }

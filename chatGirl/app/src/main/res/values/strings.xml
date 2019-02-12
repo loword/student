@@ -8,5 +8,5 @@
     <string name="boy">男生</string>
     <string name="girl">女生</string>
     <string name="title">请您选择机器人性别</string>
-    <string name="content">请选择的陪聊机器人的性别</string>
+    <string name="content">根据机器人性别进行定制化聊天内容，可增加用户聊天体验哦</string>
 </resources>

@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_title"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.MainActivity"></activity>
+        <activity android:name=".view.StyleActivity" android:theme="@style/CustomTitleBarThemeOther"></activity>
+        <activity android:name=".view.TypeActivity" />
+        <activity android:name=".view.AboutMeActivity" />
+        <activity android:name=".view.SettingActivity" />
+        <activity android:name=".view.MainActivity" />
         <activity
             android:name=".view.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -19,6 +23,7 @@
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

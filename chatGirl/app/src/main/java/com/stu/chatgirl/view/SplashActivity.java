@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_main);
-        final boolean isFirstInApp = false;
+        final boolean isFirstInApp = true;
         time = isFirstInApp ? 1000 : 500;
         final Intent intent = new Intent(SplashActivity.this, MainActivity.class);
         new Handler().postDelayed(new Runnable() {
@@ -36,6 +36,7 @@ public class SplashActivity extends AppCompatActivity {
 
                     new MaterialDialog.Builder(SplashActivity.this)
                             .content(R.string.content)
+                            .title(R.string.title)
                             .positiveText(R.string.boy)
                             .onPositive(new MaterialDialog.SingleButtonCallback() {
                                 @Override
@@ -59,6 +60,7 @@ public class SplashActivity extends AppCompatActivity {
                                 }
                             })
                             .show();
+
                 } else {
                     startActivity(intent);
                     finish();

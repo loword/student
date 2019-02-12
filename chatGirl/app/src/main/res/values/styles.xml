@@ -17,6 +17,16 @@
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
     </style>
 
+
+    <style name="CustomTitleBarThemeOther" parent="android:Theme.Light">
+        <!--定义标题栏的高度-->
+        <item name="android:windowTitleSize">60dp</item>
+        <!--定义标题栏的背景-->
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:title">123</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
     <style name="WindowTitleBackground">
         <item name="android:background">@android:color/white</item>
     </style>
