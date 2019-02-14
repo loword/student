@@ -20,13 +20,13 @@ import com.stu.chatgirl.utils.SharedPreferencesUtils;
  */
 public class SplashActivity extends AppCompatActivity {
 
-    private int time = 1000;
+    private int time = 500;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_main);
-        final boolean isFirstInApp = true;
+        final boolean isFirstInApp = false;
         time = isFirstInApp ? 1000 : 500;
         final Intent intent = new Intent(SplashActivity.this, MainActivity.class);
         new Handler().postDelayed(new Runnable() {

@@ -6,6 +6,8 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="boy">男生</string>
+    <string name="input">试一试</string>
+    <string name="no">不用了</string>
     <string name="girl">女生</string>
     <string name="title">请您选择机器人性别</string>
     <string name="content">根据机器人性别进行定制化聊天内容，可增加用户聊天体验哦</string>

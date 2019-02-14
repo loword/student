@@ -42,11 +42,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ChatAdapter chatAdapter;
     private ArrayList<Msg> list;
 
-    private String[] keys;
-    private String[] values;
     private String text;
     private String url;
     private boolean sex;
+    private String chatKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +54,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initView();
         btnSend.setOnClickListener(this);
         sex = ((boolean) SharedPreferencesUtils.getParam(MainActivity.this, "sex", false));
+    }
+
+    private void getIntentValue(Intent intent) {
+        chatKey = intent.getStringExtra("chatKey");
+        if (!TextUtils.isEmpty(chatKey)) {
+            sendChatContent(chatKey);
+        }
     }
 
     private void setMyTitle() {
@@ -75,27 +81,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         list.add(new Msg("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
         chatAdapter = new ChatAdapter(this, list, sex);
         rvChat.setAdapter(chatAdapter);
-        keys = new String[3];
-        values = new String[3];
-        keys[0] = "key";
-        values[0] = "85cfa02113b04d26a13908874922e613";
-        keys[1] = "userid";
-        values[1] = "hellorobot";
     }
 
     @Override
     public void onClick(View v) {
-        list.add(new Msg(etMsg.getText().toString(), 0));
+        final String content = etMsg.getText().toString();
+        sendChatContent(content);
+    }
+
+    private void sendChatContent(final String content) {
+        list.add(new Msg(content, 0));
         chatAdapter.notifyItemInserted(chatAdapter.getItemCount() - 1);
         rvChat.smoothScrollToPosition(chatAdapter.getItemCount() - 1);
-        keys[2] = "info";
-        values[2] = etMsg.getText().toString();
         etMsg.setText("");
+
         new Thread() {
             @Override
             public void run() {
                 try {
-                    text = new HttpUtils().sendPost("http://tuling123.com/openapi/api", keys, values);
+                    text = new HttpUtils().sendPost(content);
                     readJSON(text);
                     list.add(new Msg(text, 1));
                     if (url != null && !TextUtils.isEmpty(url)) {
@@ -115,7 +119,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }.start();
-
     }
 
     public void readJSON(String strJson) {
@@ -150,6 +153,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onDestroy() {
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        if (intent != null) {
+            getIntentValue(intent);
+        }
     }
 
     public void onSetting(View view) {

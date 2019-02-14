@@ -17,7 +17,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:id="@+id/one"
         android:gravity="center"
+        android:visibility="invisible"
         android:text="基于人工智能的陪聊app的设计与实现"
         android:textColor="@color/colorAccent"
         android:textSize="21dp" />
@@ -31,7 +33,9 @@
         android:layout_marginTop="20dp"
         android:ellipsize="end"
         android:gravity="center"
+        android:visibility="invisible"
         android:lineSpacingExtra="4dp"
+        android:id="@+id/two"
         android:text="学生: 叶春枝\n指导老师：程庆"
         android:textColor="@color/colorAccent"
         android:textSize="22dp" />

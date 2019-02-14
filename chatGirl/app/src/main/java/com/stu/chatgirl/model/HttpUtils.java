@@ -2,11 +2,15 @@ package com.stu.chatgirl.model;
 
 import android.util.Log;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
 
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.FormBody;
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -50,31 +54,19 @@ public class HttpUtils {
      * @return 返回请求结果
      * @throws IOException
      */
-    public String sendPost(String url, String[] keys, String[] values) throws IOException {
+    public String sendPost(String content) throws IOException {
         client = new OkHttpClient();
-        FormBody.Builder builder = new FormBody.Builder();
-        for (int i = 0; i < keys.length; i++) {
-            builder.add(keys[i], values[i]);
+        MediaType mediaType = MediaType.parse("application/json");
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("key", "e30fa1c4d3684b94aea9c12bee6f8214");
+            jsonObject.put("info", content);
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-        RequestBody body = builder.build();
-        Request request = new Request.Builder()
-                .url(url)
-                .post(body)
-                .build();
-        /*Call call = client.newCall(request);
-        call.enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                Log.e("Exception", e.toString());
-            }
 
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                strResponse = response.body().string();
-                Log.i("result", strResponse);
-            }
-        });*/
-
+        RequestBody requestBody = RequestBody.create(mediaType, jsonObject.toString());
+        Request request = new Request.Builder().post(requestBody).url("http://www.tuling123.com/openapi/api").build();
         Response response = client.newCall(request).execute();
         if (!response.isSuccessful()) {
             throw new IOException();
