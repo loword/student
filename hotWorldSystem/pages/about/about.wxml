@@ -1,0 +1,51 @@
+
+<!-- 
+  <view class="logo">
+    <text>基于微信平台的热门图书管理系统</text>
+    <text>的设计与实现</text>
+  </view>
+
+    <text>   xx学生   </text>
+
+    <text>指导老师：xxx   </text>
+  
+    <text>当前版别 v-1.1.0</text> -->
+
+
+
+<!--index.wxml-->
+<view class="container">
+
+  <view class=".new-wrapper">
+
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item" >
+          <view class="userinfo-color">
+            <text class="userinfo-nickname">  --- 课题 --- 基于微信平台的热门图书管理系统的设计与实现</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item">
+          <view class="userinfo">
+            <image class="userinfo-avatar" src="../../image/student.png" mode="cover"></image>
+            <text class="userinfo-nickname">学生: peter </text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item">
+          <view class="userinfo">
+            <image class="userinfo-avatar" src="../../image/teacher.png" mode="cover"></image>
+            <text class="userinfo-nickname">指导老师: peter</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

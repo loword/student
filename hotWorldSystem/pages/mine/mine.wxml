@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class=".new-wrapper">
+
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item" bindtap='clickClearAllLike'>
+          <view class="userinfo">
+            <image class="userinfo-avatar" src="../../image/clear.png" mode="cover"></image>
+            <text class="userinfo-nickname">清除所有收藏</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item" bindtap='clickCheckVersion'>
+          <view class="userinfo">
+            <image class="userinfo-avatar" src="../../image/version.png" mode="cover"></image>
+            <text class="userinfo-nickname">检查更新</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="stories-box">
+      <view class="s-b-list">
+        <view class="l-item" bindtap='clickAbout'>
+          <view class="userinfo">
+            <image class="userinfo-avatar" src="../../image/about.png" mode="cover"></image>
+            <text class="userinfo-nickname">关于我们</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

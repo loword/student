@@ -1,0 +1,22 @@
+<view class=".container">
+
+  <view class="v-img" hidden='{{showLikeView}}'>
+    <text class="bt-txt">没有您收藏的热门文章</text>
+  </view>
+  <view class=".new-wrapper">
+    <view class="stories-group" wx:for="{{storyList}}" wx:for-item="list">
+      <view class="stories-box">
+        <navigator url="../content/content?id={{list.storyId}}">
+          <view class="s-b-list">
+            <view class="l-item" bindlongpress='handlerDelete' data-bean='{{list.storyId}}'>
+              <view class="l-item-title">
+                {{list.title}}
+              </view>
+              <image class="l-item-img" src="{{list.image}}"></image>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

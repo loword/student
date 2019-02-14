@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/content/content",
+    "pages/mine/mine",
+    "pages/like/like",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "while",
+    "navigationBarTitleText": "热门文章管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#d4237a",
+    "color": "#bfbfbf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热门",
+        "selectedIconPath": "image/hot_press.png",
+        "iconPath": "image/hot.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "管理",
+        "selectedIconPath": "image/manager_press.png",
+        "iconPath": "image/manager.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "selectedIconPath": "image/person_press.png",
+        "iconPath": "image/person.png"
+      }
+    ]
+  }
+}
