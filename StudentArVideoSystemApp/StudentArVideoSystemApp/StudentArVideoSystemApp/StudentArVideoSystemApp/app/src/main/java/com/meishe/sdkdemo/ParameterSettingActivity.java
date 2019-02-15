@@ -134,14 +134,7 @@ public class ParameterSettingActivity extends BaseActivity {
         }else {
             mEncoder_support.setChecked(false);
         }
-        NvsStreamingContext.SdkVersion sdkVersion = mStreamingContext.getSdkVersion();
-        StringBuilder stringBuilder = new StringBuilder("Meishe SDK ");
-        stringBuilder.append(sdkVersion.majorVersion);
-        stringBuilder.append(".");
-        stringBuilder.append(sdkVersion.minorVersion);
-        stringBuilder.append(".");
-        stringBuilder.append(sdkVersion.revisionNumber);
-        mSDKVersion.setText(stringBuilder.toString());
+        mSDKVersion.setText(String.format(getResources().getString(R.string.versionNumber), "1.0.0"));
     }
 
     @Override
