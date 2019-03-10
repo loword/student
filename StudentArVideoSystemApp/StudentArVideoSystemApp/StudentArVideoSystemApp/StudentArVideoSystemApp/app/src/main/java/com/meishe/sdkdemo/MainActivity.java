@@ -89,7 +89,7 @@ public class MainActivity extends BasePermissionActivity implements OnItemClickL
     @Override
     protected void initData() {
         ParameterSettingValues parameterValues = (ParameterSettingValues) SpUtil.getObjectFromShare(getApplicationContext(), Constants.KEY_PARAMTER);
-        if (parameterValues != null) {  // 本地没有存储设置的参数，设置默认值
+        if (parameterValues != null) {
             ParameterSettingValues.setParameterValues(parameterValues);
         }
 
