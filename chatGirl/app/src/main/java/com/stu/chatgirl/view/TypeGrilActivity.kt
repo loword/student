@@ -1,22 +1,16 @@
 package com.stu.chatgirl.view
 
-import android.content.DialogInterface
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
-import com.afollestad.materialdialogs.DialogAction
 import com.afollestad.materialdialogs.MaterialDialog
 import com.bumptech.glide.Glide
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.stu.chatgirl.R
-import com.stu.chatgirl.utils.SharedPreferencesUtils
 import kotlinx.android.synthetic.main.activity_setting.*
 
-class TypeActivity : BaseActivity() {
+class TypeGrilActivity : BaseGrilActivity() {
     override fun getTitleString(): CharSequence? {
         return "聊天介绍"
     }
@@ -106,7 +100,7 @@ class TypeActivity : BaseActivity() {
             var intent = Intent(this, MainActivity::class.java)
             //生活百科
 
-            MaterialDialog.Builder(this@TypeActivity)
+            MaterialDialog.Builder(this@TypeGrilActivity)
                     .content(keyContentList[position].first)
                     .title(list[position].second)
                     .positiveText(R.string.input)

@@ -18,8 +18,8 @@ import android.widget.Toast;
 
 
 import com.stu.chatgirl.R;
-import com.stu.chatgirl.model.HttpUtils;
-import com.stu.chatgirl.model.Msg;
+import com.stu.chatgirl.model.GirlRequestUtils;
+import com.stu.chatgirl.model.MessageContent;
 import com.stu.chatgirl.utils.SharedPreferencesUtils;
 import com.stu.chatgirl.utils.StatusBarUtils;
 
@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnSend;
     private RecyclerView rvChat;
 
-    private ChatAdapter chatAdapter;
-    private ArrayList<Msg> list;
+    private MessageChatAdapter chatAdapter;
+    private ArrayList<MessageContent> list;
 
     private String text;
     private String url;
@@ -77,9 +77,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rvChat = findViewById(R.id.rv_chat);
         rvChat.setLayoutManager(new WrapContentLinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         list = new ArrayList<>();
-        list.add(new Msg("你好呀！,我叫美美,我可以陪你聊天", 1));
-        list.add(new Msg("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
-        chatAdapter = new ChatAdapter(this, list, sex);
+        list.add(new MessageContent("你好呀！,我叫美美,我可以陪你聊天", 1));
+        list.add(new MessageContent("对了，也可以帮你查询日常信息，如天气，百科全书，明星。。。  太多了 ，太多了。。。 ", 1));
+        chatAdapter = new MessageChatAdapter(this, list, sex);
         rvChat.setAdapter(chatAdapter);
     }
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void sendChatContent(final String content) {
-        list.add(new Msg(content, 0));
+        list.add(new MessageContent(content, 0));
         chatAdapter.notifyItemInserted(chatAdapter.getItemCount() - 1);
         rvChat.smoothScrollToPosition(chatAdapter.getItemCount() - 1);
         etMsg.setText("");
@@ -99,11 +99,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void run() {
                 try {
-                    text = new HttpUtils().sendPost(content);
+                    text = new GirlRequestUtils().sendPost(content);
                     readJSON(text);
-                    list.add(new Msg(text, 1));
+                    list.add(new MessageContent(text, 1));
                     if (url != null && !TextUtils.isEmpty(url)) {
-                        list.add(new Msg("哼！自己打开看 。。。" + url, 1));
+                        list.add(new MessageContent("哼！自己打开看 。。。" + url, 1));
                     }
                     handler.sendEmptyMessage(0);
                 } catch (IOException e) {
@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onSetting(View view) {
-        startActivity(new Intent(this, SettingActivity.class));
+        startActivity(new Intent(this, SettingGrilActivity.class));
     }
 
 }

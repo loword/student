@@ -15,12 +15,12 @@
             android:theme="@style/CustomTitleBarThemeOther">
 
         </activity>
-        <activity android:name=".view.TypeActivity" />
-        <activity android:name=".view.AboutMeActivity" />
-        <activity android:name=".view.SettingActivity" />
+        <activity android:name=".view.TypeGrilActivity" />
+        <activity android:name=".view.AboutGrilGrilActivity" />
+        <activity android:name=".view.SettingGrilActivity" />
         <activity android:name=".view.MainActivity" />
         <activity
-            android:name=".view.SplashActivity"
+            android:name=".view.SplashDemoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:icon="@drawable/chat"
             android:label="陪聊"

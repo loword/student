@@ -1,12 +1,12 @@
 package com.stu.chatgirl.model;
 
 
-public class Msg {
+public class MessageContent {
 
     private String msg;
     private int type;
 
-    public Msg(String msg, int type) {
+    public MessageContent(String msg, int type) {
         this.msg = msg;
         this.type = type;
     }

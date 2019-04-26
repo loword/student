@@ -9,7 +9,7 @@ import android.view.Window;
 import com.stu.chatgirl.R;
 import com.stu.chatgirl.utils.StatusBarUtils;
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseGrilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

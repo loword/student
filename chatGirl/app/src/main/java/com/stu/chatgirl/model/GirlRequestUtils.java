@@ -17,7 +17,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 
-public class HttpUtils {
+public class GirlRequestUtils {
 
     private String strResponse;
 

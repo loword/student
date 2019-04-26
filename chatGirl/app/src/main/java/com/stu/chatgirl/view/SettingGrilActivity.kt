@@ -1,22 +1,18 @@
 package com.stu.chatgirl.view
 
-import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.widget.LinearLayoutManager
 import android.widget.Toast
-import com.afollestad.materialdialogs.MaterialDialog
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.kaopiz.kprogresshud.KProgressHUD
 import com.stu.chatgirl.R
 import kotlinx.android.synthetic.main.activity_setting.*
-import java.lang.reflect.Type
-import javax.net.ssl.HandshakeCompletedEvent
 
 
-class SettingActivity : BaseActivity() {
+class SettingGrilActivity : BaseGrilActivity() {
     override fun getTitleString(): CharSequence? {
         return "设置"
     }
@@ -32,11 +28,11 @@ class SettingActivity : BaseActivity() {
         settingAdapter.setOnItemClickListener { adapter, view, position ->
             when (position) {
                 0 -> {
-                    startActivity(Intent(this, TypeActivity::class.java))
+                    startActivity(Intent(this, TypeGrilActivity::class.java))
                 }
 
                 1 -> {
-                    var show = KProgressHUD.create(this@SettingActivity)
+                    var show = KProgressHUD.create(this@SettingGrilActivity)
                             .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                             .setLabel("请稍等")
                             .setDetailsLabel("正在清空缓存 ... ")
@@ -48,13 +44,13 @@ class SettingActivity : BaseActivity() {
                     val handler = Handler()
                     handler.postDelayed({
                         show.dismiss()
-                        Toast.makeText(this@SettingActivity, "已经清空", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@SettingGrilActivity, "已经清空", Toast.LENGTH_SHORT).show()
                     }, 2000)
 
                 }
 
                 2 -> {
-                    var show = KProgressHUD.create(this@SettingActivity)
+                    var show = KProgressHUD.create(this@SettingGrilActivity)
                             .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                             .setLabel("请稍等")
                             .setDetailsLabel("正在请求服务器中 ... ")
@@ -66,13 +62,13 @@ class SettingActivity : BaseActivity() {
                     val handler = Handler()
                     handler.postDelayed({
                         show.dismiss()
-                        Toast.makeText(this@SettingActivity, "已是最新版本", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@SettingGrilActivity, "已是最新版本", Toast.LENGTH_SHORT).show()
                     }, 2000)
 
                 }
 
                 3 -> {
-                    startActivity(Intent(this, AboutMeActivity::class.java))
+                    startActivity(Intent(this, AboutGrilGrilActivity::class.java))
                 }
 
                 else -> {

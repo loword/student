@@ -18,7 +18,7 @@ import com.stu.chatgirl.utils.SharedPreferencesUtils;
 /**
  * @author peterliu
  */
-public class SplashActivity extends AppCompatActivity {
+public class SplashDemoActivity extends AppCompatActivity {
 
     private int time = 500;
 
@@ -28,20 +28,20 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_main);
         final boolean isFirstInApp = false;
         time = isFirstInApp ? 1000 : 500;
-        final Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+        final Intent intent = new Intent(SplashDemoActivity.this, MainActivity.class);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 if (isFirstInApp) {
 
-                    new MaterialDialog.Builder(SplashActivity.this)
+                    new MaterialDialog.Builder(SplashDemoActivity.this)
                             .content(R.string.content)
                             .title(R.string.title)
                             .positiveText(R.string.boy)
                             .onPositive(new MaterialDialog.SingleButtonCallback() {
                                 @Override
                                 public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {// boy
-                                    SharedPreferencesUtils.setParam(SplashActivity.this, "sex", true);
+                                    SharedPreferencesUtils.setParam(SplashDemoActivity.this, "sex", true);
                                 }
                             })
                             .cancelable(false)
@@ -49,7 +49,7 @@ public class SplashActivity extends AppCompatActivity {
                             .onNegative(new MaterialDialog.SingleButtonCallback() {
                                 @Override
                                 public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) { // girl
-                                    SharedPreferencesUtils.setParam(SplashActivity.this, "sex", false);
+                                    SharedPreferencesUtils.setParam(SplashDemoActivity.this, "sex", false);
                                 }
                             })
                             .dismissListener(new DialogInterface.OnDismissListener() {

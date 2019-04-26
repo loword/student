@@ -1,9 +1,7 @@
 package com.stu.chatgirl.view;
 
 import android.content.Context;
-import android.os.Build;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
@@ -13,9 +11,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.makeramen.roundedimageview.RoundedImageView;
 import com.stu.chatgirl.R;
-import com.stu.chatgirl.model.Msg;
+import com.stu.chatgirl.model.MessageContent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +20,7 @@ import java.util.List;
 /**
  * @author peterliu
  */
-public class ChatAdapter extends RecyclerView.Adapter {
+public class MessageChatAdapter extends RecyclerView.Adapter {
 
     private final boolean sex;
     private Context context;
@@ -31,9 +28,9 @@ public class ChatAdapter extends RecyclerView.Adapter {
     private static final int ME = 0;
     private static final int ROBOT = 1;
 
-    private List<Msg> list = new ArrayList<>();
+    private List<MessageContent> list = new ArrayList<>();
 
-    public ChatAdapter(Context context, ArrayList<Msg> list, boolean sex) {
+    public MessageChatAdapter(Context context, ArrayList<MessageContent> list, boolean sex) {
         this.context = context;
         this.list = list;
         this.sex = sex;
@@ -81,11 +78,11 @@ public class ChatAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         ViewHolder viewHolder = (ViewHolder) holder;
         TextView tv = new TextView(context);
-        Msg msg = list.get(position);
-        tv.setText(msg.getMsg());
+        MessageContent messageContent = list.get(position);
+        tv.setText(messageContent.getMsg());
         tv.setAutoLinkMask(Linkify.ALL);
         tv.setMovementMethod(LinkMovementMethod.getInstance());
-        switch (msg.getType()) {
+        switch (messageContent.getType()) {
             case ME:
                 tv.setPadding(25, 25, 35, 25);
                 viewHolder.getMe().removeAllViews();
