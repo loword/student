@@ -5,5 +5,5 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:id="@+id/rootView"
-    tools:context=".capturescene.PreviewActivity">
+    tools:context="com.me.hiet.capturescene.PreviewActivity">
 </android.support.constraint.ConstraintLayout>

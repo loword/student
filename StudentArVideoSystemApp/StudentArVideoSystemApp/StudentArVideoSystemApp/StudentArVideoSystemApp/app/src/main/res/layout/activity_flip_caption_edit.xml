@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.meishe.sdkdemo.flipcaption.FlipCaptionEditActivity">
+    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.flipcaption.FlipCaptionEditActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -80,7 +80,7 @@
             android:layout_alignParentBottom="true"
             android:background="#ff242728"
             android:orientation="vertical">
-            <com.meishe.sdkdemo.flipcaption.FlipCaptionColorList
+            <com.me.hiet.flipcaption.FlipCaptionColorList
                 android:id="@+id/flipCaptionColorList"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
@@ -89,7 +89,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="@dimen/dp13">
 
-            </com.meishe.sdkdemo.flipcaption.FlipCaptionColorList>
+            </com.me.hiet.flipcaption.FlipCaptionColorList>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

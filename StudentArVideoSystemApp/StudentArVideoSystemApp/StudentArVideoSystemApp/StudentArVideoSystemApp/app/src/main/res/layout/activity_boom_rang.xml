@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.meishe.sdkdemo.boomrang.BoomRangActivity">
+    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.boomrang.BoomRangActivity">
 
     <RelativeLayout
         android:id="@+id/boomRang_rootView"
@@ -17,7 +17,7 @@
         android:background="#50ffffff"
         android:visibility="gone"/>
 
-    <com.meishe.sdkdemo.boomrang.view.RoundProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+    <com.me.hiet.boomrang.view.RoundProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/boomRang_recordBtn"
         android:layout_width="76dp"
         android:layout_height="76dp"

@@ -30,7 +30,7 @@
         android:src="@mipmap/asset_download"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"/>
-    <com.meishe.sdkdemo.edit.view.CircleProgressBar
+    <com.me.hiet.edit.view.CircleProgressBar
         android:id="@+id/circleProgressBar"
         android:layout_width="14dp"
         android:layout_height="14dp"

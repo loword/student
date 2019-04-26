@@ -13,7 +13,7 @@
         android:paddingRight="5dp"
         android:orientation="horizontal">
 
-        <com.meishe.sdkdemo.edit.view.RoundImageView
+        <com.me.hiet.edit.view.RoundImageView
             android:id="@+id/imageThumbView"
             android:layout_width="87dp"
             android:layout_height="match_parent"

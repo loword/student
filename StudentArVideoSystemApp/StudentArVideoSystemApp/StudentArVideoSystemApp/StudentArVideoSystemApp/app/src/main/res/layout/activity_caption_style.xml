@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.meishe.sdkdemo.edit.Caption.CaptionStyleActivity">
+    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.edit.Caption.CaptionStyleActivity">
 
-    <com.meishe.sdkdemo.edit.view.CustomTitleBar
+    <com.me.hiet.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -41,7 +41,7 @@
             app:tabTextAppearance="@style/tabLayoutTextStyle"
             app:tabTextColor="#ff909293" />
 
-        <com.meishe.sdkdemo.edit.view.CustomViewPager
+        <com.me.hiet.edit.view.CustomViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="118dp"

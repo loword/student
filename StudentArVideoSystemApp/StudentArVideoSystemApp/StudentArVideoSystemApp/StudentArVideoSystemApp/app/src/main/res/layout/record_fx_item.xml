@@ -24,7 +24,7 @@
         android:layout_below="@+id/record_fx_image"
         android:layout_centerHorizontal="true"/>
 
-    <com.meishe.sdkdemo.edit.view.RoundImageView
+    <com.me.hiet.edit.view.RoundImageView
         android:id="@+id/record_fx_select"
         android:layout_width="49dp"
         android:layout_height="49dp"

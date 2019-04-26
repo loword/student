@@ -22,7 +22,7 @@
         android:scaleType="fitXY"
         android:visibility="gone" />
 
-    <com.meishe.sdkdemo.capturescene.view.CircleBarView
+    <com.me.hiet.capturescene.view.CircleBarView
         android:id="@+id/item_cs_download"
         android:layout_width="@dimen/dp13"
         android:layout_height="@dimen/dp13"

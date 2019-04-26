@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.meishe.sdkdemo.picinpic.PicturInPicturePreviewActivity">
+    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.picinpic.PicturInPicturePreviewActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.meishe.sdkdemo.edit.view.CustomTitleBar
+        <com.me.hiet.edit.view.CustomTitleBar
             android:id="@+id/title_bar"
             android:layout_width="match_parent"
             android:layout_height="64dp"

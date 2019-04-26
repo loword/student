@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/douyin_capture_layout"
-    tools:context="com.meishe.sdkdemo.douyin.DouYinCaptureActivity"
+    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.douyin.DouYinCaptureActivity"
     android:background="@color/black">
 
     <com.meicam.sdk.NvsLiveWindow
@@ -24,7 +24,7 @@
         android:contentDescription="@null"
         app:srcCompat="@mipmap/icon_auto_focus" />
 
-    <com.meishe.sdkdemo.douyin.RecordProgress
+    <com.me.hiet.douyin.RecordProgress
         android:id="@+id/record_progress"
         android:layout_width="match_parent"
         android:layout_marginLeft="12dp"
@@ -69,7 +69,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <com.meishe.sdkdemo.douyin.view.TimeDownView
+    <com.me.hiet.douyin.view.TimeDownView
         android:id="@+id/countDownTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

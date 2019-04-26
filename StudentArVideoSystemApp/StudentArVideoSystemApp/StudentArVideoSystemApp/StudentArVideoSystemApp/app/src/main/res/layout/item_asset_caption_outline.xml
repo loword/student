@@ -11,7 +11,7 @@
         android:layout_centerInParent="true"
         android:src="@mipmap/timeline_fx_no" />
 
-    <com.meishe.sdkdemo.edit.view.RoundColorView
+    <com.me.hiet.edit.view.RoundColorView
         android:id="@+id/captionOutlineColor"
         android:layout_width="25dp"
         android:layout_height="25dp"

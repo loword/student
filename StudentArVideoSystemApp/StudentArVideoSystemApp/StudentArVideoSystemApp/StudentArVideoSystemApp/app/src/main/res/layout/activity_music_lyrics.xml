@@ -11,13 +11,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.meishe.sdkdemo.edit.view.CustomTitleBar
+        <com.me.hiet.edit.view.CustomTitleBar
             android:id="@+id/title_bar"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             app:layout_constraintTop_toTopOf="parent">
 
-        </com.meishe.sdkdemo.edit.view.CustomTitleBar>
+        </com.me.hiet.edit.view.CustomTitleBar>
 
         <RelativeLayout
             android:id="@+id/video_layout"

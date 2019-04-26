@@ -12,13 +12,13 @@
         android:textSize="11sp"
         android:layout_marginTop="13dp"
         android:layout_gravity="center_horizontal"/>
-    <com.meishe.sdkdemo.douyin.view.CountDownDurationAdjustView
+    <com.me.hiet.douyin.view.CountDownDurationAdjustView
         android:id="@+id/countDownCaptureView"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_marginTop="13dp">
 
-    </com.meishe.sdkdemo.douyin.view.CountDownDurationAdjustView>
+    </com.me.hiet.douyin.view.CountDownDurationAdjustView>
     <Button
         android:id="@+id/startCountDownCapture"
         android:layout_width="match_parent"

@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="49dp">
         
-        <com.meishe.sdkdemo.edit.view.RoundImageView
+        <com.me.hiet.edit.view.RoundImageView
             android:id="@+id/imageAsset"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

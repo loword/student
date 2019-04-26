@@ -17,14 +17,14 @@
             android:layout_height="match_parent"
             android:layout_centerInParent="true"/>
 
-        <com.meishe.sdkdemo.edit.view.DrawRect
+        <com.me.hiet.edit.view.DrawRect
             android:id="@+id/draw_rect"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:visibility="gone"/>
 
-        <com.meishe.sdkdemo.makecover.ClipImageView
+        <com.me.hiet.makecover.ClipImageView
             android:id="@+id/clip_image_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -65,7 +65,7 @@
             android:layout_height="0dp"
             android:layout_weight="1">
 
-            <com.meishe.sdkdemo.particle.LiveWindow
+            <com.me.hiet.particle.LiveWindow
                 android:id="@+id/live_window"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             android:layout_marginRight="10dp"
             android:background="@color/colorTranslucent">
 
-            <com.meishe.sdkdemo.particle.ParticleSqLayout
+            <com.me.hiet.particle.ParticleSqLayout
                 android:id="@+id/sequence_layout"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"

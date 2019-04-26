@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.meishe.sdkdemo.boomrang.LiveWindow
+    <com.me.hiet.boomrang.LiveWindow
         android:id="@+id/liveWindow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
