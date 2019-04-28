@@ -87,7 +87,7 @@
 
     </LinearLayout>
 
-    <com.me.hiet.main.WrapContentHeightViewPager
+    <com.meishe.sdkdemo.main.WrapContentHeightViewPager
         android:id="@+id/main_viewPager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

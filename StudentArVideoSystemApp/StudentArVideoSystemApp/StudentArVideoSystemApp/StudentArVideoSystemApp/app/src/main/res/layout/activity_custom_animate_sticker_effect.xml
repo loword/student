@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.edit.animatesticker.customsticker.CustomAnimateStickerEffectActivity">
+    tools:context="com.meishe.sdkdemo.edit.animatesticker.customsticker.CustomAnimateStickerEffectActivity">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         app:layout_constraintTop_toTopOf="parent">
 
-    </com.me.hiet.edit.view.CustomTitleBar>
+    </com.meishe.sdkdemo.edit.view.CustomTitleBar>
 
     <RelativeLayout
         android:layout_width="match_parent"

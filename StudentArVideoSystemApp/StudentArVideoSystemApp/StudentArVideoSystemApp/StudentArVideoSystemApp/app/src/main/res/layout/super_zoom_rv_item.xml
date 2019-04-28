@@ -34,7 +34,7 @@
             android:src="@mipmap/asset_download_icon"
             android:visibility="invisible" />
 
-        <com.me.hiet.edit.view.CircleProgressBar
+        <com.meishe.sdkdemo.edit.view.CircleProgressBar
             android:id="@+id/super_zoom_circle_progressbar"
             android:layout_width="10dp"
             android:layout_height="10dp"

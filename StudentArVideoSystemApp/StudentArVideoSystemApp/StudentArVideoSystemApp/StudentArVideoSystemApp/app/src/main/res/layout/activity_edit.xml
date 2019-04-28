@@ -10,13 +10,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.me.hiet.edit.view.CustomTitleBar
+        <com.meishe.sdkdemo.edit.view.CustomTitleBar
             android:id="@+id/title_bar"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:layout_alignParentTop="true" />
 
-        <com.me.hiet.edit.grallyRecyclerView.SpeedRecyclerView
+        <com.meishe.sdkdemo.edit.grallyRecyclerView.SpeedRecyclerView
             android:id="@+id/editClipRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="0dp"

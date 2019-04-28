@@ -7,6 +7,16 @@
     android:orientation="vertical"
     tools:context=".view.SplashDemoActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="个人信息"
+        android:visibility="gone"
+        android:id="@+id/tvShowInfo"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,29 +24,29 @@
         android:src="@mipmap/splash" />
 
     <TextView
+        android:id="@+id/one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/one"
         android:gravity="center"
-        android:visibility="invisible"
         android:text="基于人工智能的陪聊app的设计与实现"
         android:textColor="@color/colorAccent"
-        android:textSize="21dp" />
+        android:textSize="21dp"
+        android:visibility="invisible" />
 
 
     <TextView
+        android:id="@+id/two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginRight="2dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="2dp"
         android:ellipsize="end"
         android:gravity="center"
-        android:visibility="invisible"
         android:lineSpacingExtra="4dp"
-        android:id="@+id/two"
         android:text="学生: 叶春枝\n指导老师：程庆"
         android:textColor="@color/colorAccent"
-        android:textSize="22dp" />
+        android:textSize="22dp"
+        android:visibility="invisible" />
 </LinearLayout>

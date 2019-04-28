@@ -62,12 +62,12 @@
         android:layout_marginLeft="11dp"
         android:layout_marginTop="35dp">
 
-        <com.me.hiet.edit.music.CutMusicView
+        <com.meishe.sdkdemo.edit.music.CutMusicView
             android:id="@+id/select_music_cut_view"
             android:layout_width="match_parent"
             android:layout_height="20dp">
 
-        </com.me.hiet.edit.music.CutMusicView>
+        </com.meishe.sdkdemo.edit.music.CutMusicView>
     </RelativeLayout>
 
 </RelativeLayout>

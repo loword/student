@@ -5,7 +5,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.capture.CaptureActivity">
+    tools:context="com.meishe.sdkdemo.capture.CaptureActivity">
 
     <com.meicam.sdk.NvsLiveWindow
         android:id="@+id/liveWindow"

@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.edit.animatesticker.AnimateStickerActivity">
+    tools:context="com.meishe.sdkdemo.edit.animatesticker.AnimateStickerActivity">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -87,7 +87,7 @@
                     android:layout_marginRight="15dp"
                     android:background="@mipmap/icon_edit_play" />
 
-                <com.me.hiet.edit.timelineEditor.NvsTimelineEditor
+                <com.meishe.sdkdemo.edit.timelineEditor.NvsTimelineEditor
                     android:id="@+id/timelineEditor"
                     android:layout_width="0dp"
                     android:layout_height="49dp"
@@ -167,7 +167,7 @@
                     app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"/>
             </LinearLayout>
 
-            <com.me.hiet.edit.view.CustomViewPager
+            <com.meishe.sdkdemo.edit.view.CustomViewPager
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="85dp"

@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.me.hiet.superzoom.SuperZoomActivity">
+    tools:context=".superzoom.SuperZoomActivity">
 
     <android.opengl.GLSurfaceView
         android:id="@+id/GLView"
@@ -82,7 +82,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.me.hiet.boomrang.view.RoundProgressView
+    <com.meishe.sdkdemo.boomrang.view.RoundProgressView
         android:id="@+id/buttonRecord"
         android:layout_width="76dp"
         android:layout_height="76dp"
@@ -97,7 +97,7 @@
         app:progressColor="#80fc3e3e"
         app:progressWidth="6dp" />
 
-    <com.me.hiet.superzoom.fxview.CenterHorizontalView
+    <com.meishe.sdkdemo.superzoom.fxview.CenterHorizontalView
         android:id="@+id/super_zoom_fx_view"
         android:layout_width="match_parent"
         android:layout_height="60dp"

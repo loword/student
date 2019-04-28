@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        app:layout_constraintTop_toTopOf="parent"></com.me.hiet.edit.view.CustomTitleBar>
+        app:layout_constraintTop_toTopOf="parent"></com.meishe.sdkdemo.edit.view.CustomTitleBar>
 
     <RelativeLayout
         android:id="@+id/video_layout"
@@ -24,14 +24,14 @@
         android:layout_height="213dp"
         android:background="#ff242728">
 
-        <com.me.hiet.view.FilterView
+        <com.meishe.sdkdemo.view.FilterView
             android:id="@+id/filterView"
             android:layout_width="match_parent"
             android:layout_height="154dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="30dp">
 
-        </com.me.hiet.view.FilterView>
+        </com.meishe.sdkdemo.view.FilterView>
 
         <View
             android:layout_width="match_parent"

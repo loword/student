@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.douyin.DouYinCaptureActivity">
+    tools:context="com.meishe.sdkdemo.douyin.DouYinCaptureActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                 android:layout_height="26dp"
                 android:layout_centerVertical="true" />
 
-            <com.me.hiet.douyin.FxSeekView
+            <com.meishe.sdkdemo.douyin.FxSeekView
                 android:id="@+id/fx_seek_view"
                 android:layout_width="match_parent"
                 android:layout_height="32dp"

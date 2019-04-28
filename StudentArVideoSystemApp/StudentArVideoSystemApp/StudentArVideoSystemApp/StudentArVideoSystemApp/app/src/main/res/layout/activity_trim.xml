@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.edit.clipEdit.trim.TrimActivity">
+    tools:context="com.meishe.sdkdemo.edit.clipEdit.trim.TrimActivity">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -35,7 +35,7 @@
             android:textColor="#ffffffff"
             android:textSize="10sp" />
 
-        <com.me.hiet.edit.timelineEditor.NvsTimelineEditor
+        <com.meishe.sdkdemo.edit.timelineEditor.NvsTimelineEditor
             android:id="@+id/timelineEditor"
             android:layout_width="match_parent"
             android:layout_height="92dp"

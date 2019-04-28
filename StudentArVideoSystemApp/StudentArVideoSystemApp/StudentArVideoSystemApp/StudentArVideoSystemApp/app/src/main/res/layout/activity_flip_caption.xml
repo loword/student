@@ -8,13 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <com.me.hiet.edit.view.CustomTitleBar
+        <com.meishe.sdkdemo.edit.view.CustomTitleBar
             android:id="@+id/title_bar"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             app:layout_constraintTop_toTopOf="parent">
 
-        </com.me.hiet.edit.view.CustomTitleBar>
+        </com.meishe.sdkdemo.edit.view.CustomTitleBar>
 
         <RelativeLayout
             android:id="@+id/spaceLayout"
@@ -100,7 +100,7 @@
                 android:layout_height="match_parent"
                 android:background="#ff242728"
                 android:visibility="gone">
-                <com.me.hiet.flipcaption.FlipCaptionColorList
+                <com.meishe.sdkdemo.flipcaption.FlipCaptionColorList
                     android:id="@+id/flipCaptionColorList"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
@@ -109,7 +109,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="@dimen/dp13">
 
-                </com.me.hiet.flipcaption.FlipCaptionColorList>
+                </com.meishe.sdkdemo.flipcaption.FlipCaptionColorList>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

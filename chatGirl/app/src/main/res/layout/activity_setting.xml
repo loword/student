@@ -33,7 +33,28 @@
             android:text="设置"
             android:textColor="@color/colorAccent"
             tools:ignore="OnClick" />
+
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="编辑"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+
     </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutTitle"
+        android:orientation="vertical" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/RecyclerView"

@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="@color/msff242728"
     android:orientation="vertical"
-    tools:context="com.meishe.sdkdemo.com.me.sdkdemo.edit.Caption.CaptionActivity">
+    tools:context="com.meishe.sdkdemo.edit.Caption.CaptionActivity">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -100,7 +100,7 @@
             android:layout_height="63dp"
             android:layout_below="@id/control_layout">
 
-            <com.me.hiet.edit.timelineEditor.NvsTimelineEditor
+            <com.meishe.sdkdemo.edit.timelineEditor.NvsTimelineEditor
                 android:id="@+id/caption_timeline_editor"
                 android:layout_width="wrap_content"
                 android:layout_height="49dp"

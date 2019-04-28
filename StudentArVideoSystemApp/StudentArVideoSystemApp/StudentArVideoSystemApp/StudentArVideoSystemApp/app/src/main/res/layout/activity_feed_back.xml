@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="#ff242728"
     android:orientation="vertical"
-    tools:context="com.me.hiet.feedback.FeedBackActivity">
+    tools:context=".feedback.FeedBackActivity">
 
-    <com.me.hiet.edit.view.CustomTitleBar
+    <com.meishe.sdkdemo.edit.view.CustomTitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="64dp"

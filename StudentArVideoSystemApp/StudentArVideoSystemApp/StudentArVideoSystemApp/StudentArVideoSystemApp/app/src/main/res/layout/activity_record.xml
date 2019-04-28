@@ -9,13 +9,13 @@
         android:orientation="vertical"
         android:background="#ff242728">
 
-        <com.me.hiet.edit.view.CustomTitleBar
+        <com.meishe.sdkdemo.edit.view.CustomTitleBar
             android:id="@+id/title_bar"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             app:layout_constraintTop_toTopOf="parent">
 
-        </com.me.hiet.edit.view.CustomTitleBar>
+        </com.meishe.sdkdemo.edit.view.CustomTitleBar>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                 android:layout_height="match_parent">
             </RelativeLayout>
 
-            <com.me.hiet.edit.view.VerticalSeekBar
+            <com.meishe.sdkdemo.edit.view.VerticalSeekBar
                 android:id="@+id/record_volume_seekBar"
                 android:layout_width="20dp"
                 android:layout_height="180dp"
@@ -112,7 +112,7 @@
                 android:layout_height="63dp"
                 android:layout_below="@id/control_layout">
 
-                <com.me.hiet.edit.record.SqLayout
+                <com.meishe.sdkdemo.edit.record.SqLayout
                     android:id="@+id/sq_view"
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
@@ -122,7 +122,7 @@
                     android:layout_centerVertical="true"
                     android:overScrollMode="never">
 
-                </com.me.hiet.edit.record.SqLayout>
+                </com.meishe.sdkdemo.edit.record.SqLayout>
 
                 <RelativeLayout
                     android:id="@+id/play_btn_layout"

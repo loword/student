@@ -10,15 +10,15 @@
         android:label="陪聊"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".view.edit.EditViewActivity" />
         <activity
             android:name=".view.StyleActivity"
-            android:theme="@style/CustomTitleBarThemeOther">
-
-        </activity>
+            android:theme="@style/CustomTitleBarThemeOther" />
         <activity android:name=".view.TypeGrilActivity" />
         <activity android:name=".view.AboutGrilGrilActivity" />
         <activity android:name=".view.SettingGrilActivity" />
         <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.edit.EditShowInfoActivity" />
         <activity
             android:name=".view.SplashDemoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
