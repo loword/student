@@ -4,7 +4,8 @@
     "pages/content/content",
     "pages/mine/mine",
     "pages/like/like",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/talk/talk"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -35,5 +36,6 @@
         "iconPath": "image/person.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

@@ -9,6 +9,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.kaopiz.kprogresshud.KProgressHUD
 import com.stu.chatgirl.R
+import com.stu.chatgirl.view.edit.EditShowInfoActivity
 import kotlinx.android.synthetic.main.activity_setting.*
 
 
@@ -68,7 +69,7 @@ class SettingGrilActivity : BaseGrilActivity() {
                 }
 
                 3 -> {
-                    startActivity(Intent(this, AboutGrilGrilActivity::class.java))
+                    startActivity(Intent(this, EditShowInfoActivity::class.java))
                 }
 
                 else -> {

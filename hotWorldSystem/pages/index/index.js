@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+// 这是master上的code test
 const app = getApp()
 let dateBefore = 0
 Page({
@@ -82,14 +83,6 @@ Page({
       return title
     }
   }
-  // getUserInfo: function(e) {
-  //   console.log(e)
-  //   app.globalData.userInfo = e.detail.userInfo
-  //   this.setData({
-  //     userInfo: e.detail.userInfo,
-  //     hasUserInfo: true
-  //   })
-  // }
 })
 
 // 获取当前日期

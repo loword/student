@@ -21,5 +21,7 @@
       <text class="bio"><text wx:if="{{body.bio}}">{{body.bio}}</text></text>
     </view>
     <rich-text nodes="{{body.nodes}}"></rich-text>
+    <text class='text-talk' bindtap='gotoTalk'>查看评论</text>
+
   </view>
 </view>

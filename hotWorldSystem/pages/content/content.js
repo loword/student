@@ -44,6 +44,11 @@ Page({
       }
     }
   },
+  gotoTalk: function(options) {
+wx.navigateTo({
+  url: '../talk/talk',
+})
+  },
   onLoad: function(options) {
     const storyId = options.id
     const url = `https://news-at.zhihu.com/api/4/news/${storyId}`

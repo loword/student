@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    signingConfigs {
+        release {
+            storeFile file("$System.env.KEYSTORE_PATH")
+            storePassword "$System.env.STOREPASS"
+            keyAlias "$System.env.ALIAS"
+            keyPassword "$System.env.KEYPASS"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.tencent.qcloud.tim.tuikit"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        archivesBaseName = "TUIKitDemo"
+
+        ndk {
+            abiFilters = []
+            abiFilters.addAll(rootProject.ext.abiFilters)
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: '../tuikit/libs')
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.2'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.2'
+
+    // Optional, if you use support library fragments:
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.2'
+
+    // HUAWEI push sdk
+    compile 'com.huawei.android.hms:push:2.6.3.301'
+    // MEIZU push sdk
+    compile 'com.meizu.flyme.internet:push-internal:3.6.+@aar'
+
+    // bugly sdk
+    compile 'com.tencent.bugly:crashreport:2.6.6'
+    compile 'com.tencent.bugly:nativecrashreport:3.3.1'
+
+    // 如果用aar方式集成，这里需要指定libs文件夹下的aar的名称
+//    implementation(name: 'imsdk-xxx', ext: 'aar')
+    implementation project(':tuikit')
+}
