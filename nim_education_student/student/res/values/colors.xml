@@ -70,5 +70,13 @@
     <color name="color_3d3d3d">#3d3d3d</color>
     <color name="color_f2f2f2">#f2f2f2</color>
     <color name="color_9000000">#90000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent1">#80FF4081</color>
+    <color name="gray">#808080</color>
+    <color name="blue">#1E90FF</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="select">#E1FFFF</color>
 
 </resources>

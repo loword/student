@@ -45,7 +45,7 @@
     <!-- SDK权限申明, 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
     <!-- 和下面的uses-permission一起加入到你的AndroidManifest文件中。 -->
     <permission
-        android:name="com.netease.nim.demo.permission.RECEIVE_MSG"
+        android:name="com.netease.nim.student.permission.RECEIVE_MSG"
         android:protectionLevel="signature" />
 
     <!-- 接受SDK消息广播权限， 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
@@ -53,7 +53,7 @@
 
     <!-- 小米推送 -->
     <permission
-        android:name="com.netease.nim.demo.permission.MIPUSH_RECEIVE"
+        android:name="com.netease.nim.student.permission.MIPUSH_RECEIVE"
         android:protectionLevel="signature" />
     <uses-permission android:name="com.netease.nim.demo.permission.MIPUSH_RECEIVE" />
 
@@ -63,18 +63,18 @@
     <!-- 兼容flyme5.0以下版本，魅族内部集成pushSDK必填，不然无法收到消息-->
     <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
     <permission
-        android:name="com.netease.nim.demo.push.permission.MESSAGE"
+        android:name="com.netease.nim.student.push.permission.MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission android:name="com.netease.nim.demo.push.permission.MESSAGE" />
     <!--  兼容flyme3.0配置权限-->
     <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
     <permission
-        android:name="com.netease.nim.demo.permission.C2D_MESSAGE"
+        android:name="com.netease.nim.student.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission android:name="com.netease.nim.demo.permission.C2D_MESSAGE" />
 
     <application
-        android:name=".NimApplication"
+        android:name="com.netease.nim.student.NimApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
@@ -105,7 +105,7 @@
 
         <!-- 导航页 -->
         <activity
-            android:name=".main.activity.WelcomeActivity"
+            android:name="com.netease.nim.student.main.activity.WelcomeActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -123,7 +123,7 @@
 
         <!-- 主界面 -->
         <activity
-            android:name=".main.activity.MainActivity"
+            android:name="com.netease.nim.student.main.activity.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
@@ -133,7 +133,7 @@
 
         <!-- 多端登录管理 -->
         <activity
-            android:name=".main.activity.MultiportActivity"
+            android:name="com.netease.nim.student.main.activity.MultiportActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -141,7 +141,7 @@
 
         <!-- 登录界面 -->
         <activity
-            android:name=".login.LoginActivity"
+            android:name="com.netease.nim.student.login.LoginActivity"
             android:configChanges="orientation"
             android:label="@string/login"
             android:screenOrientation="portrait"
@@ -150,7 +150,7 @@
 
         <!-- 关于 -->
         <activity
-            android:name=".main.activity.AboutActivity"
+            android:name="com.netease.nim.student.main.activity.AboutActivity"
             android:configChanges="orientation"
             android:label="@string/about"
             android:screenOrientation="portrait"
@@ -158,49 +158,49 @@
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".main.activity.SettingsActivity"
+            android:name="com.netease.nim.student.main.activity.SettingsActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name=".main.activity.NoDisturbActivity"
+            android:name="com.netease.nim.student.main.activity.NoDisturbActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".contact.activity.AddFriendActivity"
+            android:name="com.netease.nim.student.contact.activity.AddFriendActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".contact.activity.UserProfileActivity"
+            android:name="com.netease.nim.student.contact.activity.UserProfileActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".contact.activity.UserProfileSettingActivity"
+            android:name="com.netease.nim.student.contact.activity.UserProfileSettingActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".contact.activity.UserProfileEditItemActivity"
+            android:name="com.netease.nim.student.contact.activity.UserProfileEditItemActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".contact.activity.BlackListActivity"
+            android:name="com.netease.nim.student.contact.activity.BlackListActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -208,7 +208,7 @@
 
         <!-- 文件管理器 -->
         <activity
-            android:name=".file.browser.FileBrowserActivity"
+            android:name="com.netease.nim.student.file.browser.FileBrowserActivity"
             android:configChanges="orientation"
             android:label="@string/file_browser"
             android:screenOrientation="portrait"
@@ -216,46 +216,46 @@
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
         <activity
-            android:name=".main.activity.SystemMessageActivity"
+            android:name="com.netease.nim.student.main.activity.SystemMessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".main.activity.CustomNotificationActivity"
+            android:name="com.netease.nim.student.main.activity.CustomNotificationActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".session.activity.MessageHistoryActivity"
+            android:name="com.netease.nim.student.session.activity.MessageHistoryActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".session.activity.MessageInfoActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustResize" />
-
-        <activity
-            android:name=".team.activity.AdvancedTeamSearchActivity"
+            android:name="com.netease.nim.student.session.activity.MessageInfoActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <activity
-            android:name=".team.activity.AdvancedTeamJoinActivity"
+            android:name="com.netease.nim.student.team.activity.AdvancedTeamSearchActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <activity
-            android:name=".main.activity.TeamListActivity"
+            android:name="com.netease.nim.student.team.activity.AdvancedTeamJoinActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name="com.netease.nim.student.main.activity.TeamListActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -263,45 +263,45 @@
 
         <!-- 全局搜索 -->
         <activity
-            android:name=".main.activity.GlobalSearchActivity"
+            android:name="com.netease.nim.student.main.activity.GlobalSearchActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/global_search_bg"
             android:windowSoftInputMode="stateUnspecified" />
 
         <activity
-            android:name=".main.activity.GlobalSearchDetailActivity"
+            android:name="com.netease.nim.student.main.activity.GlobalSearchDetailActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".main.activity.GlobalSearchDetailActivity2"
+            android:name="com.netease.nim.student.main.activity.GlobalSearchDetailActivity2"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- 查看阅后即焚 -->
         <activity
-            android:name=".session.activity.WatchSnapChatPictureActivity"
+            android:name="com.netease.nim.student.session.activity.WatchSnapChatPictureActivity"
             android:configChanges="keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- 下载文件 -->
         <activity
-            android:name=".session.activity.FileDownloadActivity"
+            android:name="com.netease.nim.student.session.activity.FileDownloadActivity"
             android:configChanges="keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- map -->
         <activity
-            android:name=".location.activity.LocationAmapActivity"
+            android:name="com.netease.nim.student.location.activity.LocationAmapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/location_map"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".location.activity.NavigationAmapActivity"
+            android:name="com.netease.nim.student.location.activity.NavigationAmapActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/location_navigate"
             android:screenOrientation="portrait"
@@ -309,14 +309,14 @@
 
         <!-- 消息历史搜索 -->
         <activity
-            android:name=".session.search.SearchMessageActivity"
+            android:name="com.netease.nim.student.session.search.SearchMessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/global_search_bg"
             android:windowSoftInputMode="adjustPan|stateUnspecified" />
 
         <activity
-            android:name=".session.search.DisplayMessageActivity"
+            android:name="com.netease.nim.student.session.search.DisplayMessageActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -324,13 +324,13 @@
 
         <!-- 聊天室 -->
         <activity
-            android:name=".chatroom.activity.ChatRoomActivity"
+            android:name="com.netease.nim.student.chatroom.activity.ChatRoomActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <activity
-            android:name=".jsbridge.JsBridgeActivity"
+            android:name="com.netease.nim.student.jsbridge.JsBridgeActivity"
             android:label="@string/js_bridge"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -338,37 +338,37 @@
 
         <!-- 机器人 -->
         <activity
-            android:name=".main.activity.RobotListActivity"
+            android:name="com.netease.nim.student.main.activity.RobotListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- 已读回执 -->
         <activity
-            android:name=".session.activity.SendAckMsgActivity"
+            android:name="com.netease.nim.student.session.activity.SendAckMsgActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- 已读回执详情 -->
         <activity
-            android:name=".session.activity.AckMsgInfoActivity"
+            android:name="com.netease.nim.student.session.activity.AckMsgInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".contact.activity.RobotProfileActivity"
+            android:name="com.netease.nim.student.contact.activity.RobotProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
 
         <activity
-            android:name=".main.activity.PrivatizationConfigActivity"
+            android:name="com.netease.nim.student.main.activity.PrivatizationConfigActivity"
             android:configChanges="orientation"
             android:label="@string/privatization_config"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".main.activity.MsgMigrationActivity"
+            android:name="com.netease.nim.student.main.activity.MsgMigrationActivity"
             android:configChanges="orientation"
             android:label="@string/local_db_migration"
             android:screenOrientation="portrait"
@@ -414,14 +414,14 @@
         <!-- android:authorities="{包名}.ipc.provider", 请将com.netease.nim.demo替换为自己的包名 -->
         <provider
             android:name="com.netease.nimlib.ipc.NIMContentProvider"
-            android:authorities="com.netease.nim.demo.ipc.provider"
+            android:authorities="com.netease.nim.student.ipc.provider"
             android:exported="false"
             android:process=":core" />
 
         <!-- 申明自定义通知的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
         <!-- 需要权限申明 <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG"/> -->
         <receiver
-            android:name=".receiver.CustomNotificationReceiver"
+            android:name="com.netease.nim.student.receiver.CustomNotificationReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -487,7 +487,7 @@
 
         <provider
             android:name="com.huawei.hms.update.provider.UpdateProvider"
-            android:authorities="com.netease.nim.demo.hms.update.provider"
+            android:authorities="com.netease.nim.student.hms.update.provider"
             android:exported="false"
             android:grantUriPermissions="true" />
 

@@ -16,10 +16,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
-        <item name="android:itemTextAppearance">?android:attr/actionMenuTextAppearance</item>
-        <item name="actionMenuTextAppearance">@style/ActionMenuTheme</item>
-    </style>
 
     <!-- navigation style -->
     <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
@@ -49,13 +45,9 @@
         <item name="android:windowBackground">@color/color_blue_3a9efb</item>
     </style>
 
-    <!-- 全屏主题 -->
-    <style name="FullScreenTheme" parent="AppTheme.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
-    </style>
 
     <!-- 欢迎界面主题 -->
-    <style name="WelcomeEntranceActionBarTheme" parent="AppTheme.NoActionBar">
+    <style name="WelcomeEntranceActionBarTheme">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@drawable/splash_bg</item>
     </style>
