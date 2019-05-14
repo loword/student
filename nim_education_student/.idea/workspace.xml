@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30f7363f-f994-4b43-9663-2f1fa40479a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_butterknife_7_0_1_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_fastjson_1_1_34_android_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_nim_avchat_5_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_nim_basesdk_5_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_nim_chatroom_5_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_nim_rts_5_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_nrtc_sdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_universal_image_loader_1_9_4_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_tearcher_libs_video_effect_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/libraries/Gradle__org_apache_http_legacy_android_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/nim_education.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nim_education/tearcher/tearcher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_Library_Android_sdk_build_tools_28_0_3_renderscript_lib_renderscript_v8_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_avchatkit_libs_fastjson_1_1_34_android_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_avchatkit_libs_nim_avchat_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_avchatkit_libs_nim_basesdk_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_avchatkit_libs_nrtc_sdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_faceunity_libs_nama_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_jrmfRpWalletlib_libs_JrmfRpWallet_2_2_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_jrmfRpWalletlib_libs_alipaySingle_20170510_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_jrmfRpWalletlib_libs_gson_2_2_4_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_jrmfRpWalletlib_libs_okhttp_3_6_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_jrmfRpWalletlib_libs_okio_1_11_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_rtskit_libs_nim_basesdk_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_rtskit_libs_nim_rts_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_AMap2DMap_3_0_0_AMapSearch_3_6_1_AMapLocation_3_2_1_20161228_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_MiPush_SDK_Client_3_6_2_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_nim_avchat_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_nim_push_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_nim_rts_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_nrtc_sdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_student_libs_vivo_pushsdk_v2_3_1_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_uikit_libs_fastjson_1_1_34_android_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_uikit_libs_java_json_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_uikit_libs_nim_basesdk_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_uikit_libs_nim_chatroom_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_peterliu_code_student_nim_education_student_uikit_libs_nim_lucene_6_4_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_java8_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_4_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_2_7_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_8_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_5_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_huawei_android_hms_push_2_6_0_301_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_meizu_flyme_internet_push_internal_3_6_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netease_nimlib_jsbridge_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_haha_haha_2_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_6_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_6_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_support_fragment_1_6_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_4_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_glide_transformations_3_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_everything_overscroll_decor_android_1_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_leolin_ShortcutBadger_1_1_17_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_adw_library_discrete_seekbar_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_trove4j_trove4j_20160824_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avchatkit/avchatkit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faceunity/faceunity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jrmfRpWalletlib/jrmfRpWalletlib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nim_education_student.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtskit/rtskit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/student.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uikit/uikit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/SDK/imsdk-4.3.81.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/SDK/tuikit-4.3.81.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/libs/MiPush_SDK_Client_3_6_12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/libs/vivo_pushsdk_v2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx00@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx01@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx02@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx03@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx04@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx05@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx06@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx07@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx08@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx09@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx10@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx11@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx12@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx13@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx14@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4349/xx15@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt00@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt01@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt02@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt03@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt04@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt05@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt06@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt07@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt08@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt09@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt10@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt11@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt12@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt13@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt14@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt15@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/assets/4350/tt16@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/HMSAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/ActivityMgr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/ApiClientMgr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/BaseAgentActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/BaseApiAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/CallbackCodeRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/CallbackResultRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/CheckUpdateApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/EmptyConnectCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/HMSAgentActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/HMSAgentLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/IActivityDestroyedCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/IActivityPauseCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/IActivityResumeCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/IClientConnectCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/INoProguard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/IOUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/StrUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/ThreadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/UIUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/handler/CheckUpdateHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/handler/ConnectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/handler/ICallbackCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/common/handler/ICallbackResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/DeleteTokenApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/EnableReceiveNormalMsgApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/EnableReceiveNotifyMsgApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/GetPushStateApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/GetTokenApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/QueryAgreementApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/DeleteTokenHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/EnableReceiveNormalMsgHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/EnableReceiveNotifyMsgHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/GetPushStateHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/GetTokenHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/huawei/android/hms/agent/push/handler/QueryAgreementHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/PojoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/chat/ChatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/chat/GroupChatFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/chat/PersonalChatFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/contact/ContactFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/model/PojoLoginManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/model/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/presenter/PojoLoginPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/view/ILoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/view/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/login/view/MyLoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/main/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/self/SelfInfoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/session/SessionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/thirdpush/HUAWEIPushReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/thirdpush/MEIZUPushReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/thirdpush/ThirdPushTokenMgr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/thirdpush/VIVOPushMessageReceiverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/thirdpush/XiaomiMsgReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/java/com/tencent/qcloud/uipojo/utils/SimpleHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_contact_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_contact_star.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/activity_my_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/chat_fragment_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/chat_fragment_personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/contact_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/fragment_session.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/layout/info_fragment_self.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/contact_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/contact_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/myself_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/myself_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/session_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxhdpi/session_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/contact_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/contact_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/flash_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/myself_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/myself_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/session_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/session_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/mipmap-xxxhdpi/video_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/value-21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[NO]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[OK]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[下雨]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[么么哒]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[乒乓]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[便便]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[信封]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[偷笑]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[傲慢]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[再见]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[冷汗]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[凋谢]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[刀]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[删除]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[勾引]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[发呆]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[发抖]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[可怜]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[可爱]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[右哼哼]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[右太极]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[右车头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[吐]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[吓]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[咒骂]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[咖啡]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[啤酒]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[嘘]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[回头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[困]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[坏笑]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[多云]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[大兵]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[大哭]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[太阳]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[奋斗]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[奶瓶]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[委屈]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[害羞]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[尴尬]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[左哼哼]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[左太极]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[左车头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[差劲]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[弱]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[强]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[彩带]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[彩球]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[得意]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[微笑]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[心碎了]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[快哭了]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[怄火]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[怒]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[惊恐]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[惊讶]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[憨笑]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[手枪]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[打哈欠]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[抓狂]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[折磨]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[抠鼻]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[抱抱]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[抱拳]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[拳头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[挥手]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[握手]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[撇嘴]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[擦汗]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[敲打]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[晕]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[月亮]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[棒棒糖]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[汽车]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[沙发]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[流汗]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[流泪]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[激动]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[灯泡]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[炸弹]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[熊猫]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[爆筋]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[爱你]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[爱心]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[爱情]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[猪头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[猫咪]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[献吻]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[玫瑰]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[瓢虫]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[疑问]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[白眼]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[皮球]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[睡觉]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[磕头]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[示爱]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[礼品袋]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[礼物]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[篮球]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[米饭]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[糗大了]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[红双喜]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[红灯笼]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[纸巾]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[胜利]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[色]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[药]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[菜刀]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[蛋糕]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[蜡烛]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[街舞]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[衰]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[西瓜]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[调皮]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[象棋]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[跳绳]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[跳跳]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[车厢]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[转圈]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[鄙视]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[酷]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[钞票]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[钻戒]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[闪电]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[闭嘴]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[闹钟]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[阴险]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[难过]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[雨伞]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[青蛙]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[面条]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[鞭炮]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[风车]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[飞吻]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[飞机]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[饥饿]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[香蕉]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[骷髅]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[麦克风]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[麻将]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[鼓掌]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/assets/emoji/[龇牙]@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/libs/imsdk-4.3.81.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/libs/tuikit-4.3.81.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/BaseUIKitConfigs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/IMEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/TUIKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/chat/IChatAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/chat/IChatPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/chat/IChatProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/contact/IContactDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/contact/IContactPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/GroupInfoPanelEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/IGroupInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/IGroupMemberPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/IPersonalInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/ISelfInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/infos/PersonalInfoPanelEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/login/ILoginPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/session/ISessionAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/session/ISessionPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/api/session/ISessionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/C2CChatInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/C2CChatManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/C2CChatProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/PersonalInfoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/PersonalInfoManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/model/SelfInfoManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/presenter/C2CChatPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/presenter/PersonalPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/view/C2CChatCreatePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/view/C2CChatPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/view/PersonalInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/c2c/view/widget/SelfInfoPanelEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupApplyInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupChatInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupChatManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupChatProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupInfoUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/model/GroupMemberInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/presenter/GroupApplyPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/presenter/GroupChatPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/presenter/GroupInfoPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupApplyManagerPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupChatPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupCreatePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupMemberDelPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupMemberInvitePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/GroupMemberPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupApplyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupApplyCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupMemberCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupMemberControlAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupMemberControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupMemberDelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/GroupMembersAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/group/view/widget/InScrollGridView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/model/BaseChatInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/model/MessageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/model/MessageInfoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/ChatBottomInputGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/ChatIconView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/ChatListView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/ChatPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/DynamicChatUserIconView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/ActionsGridviewAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/ActionsPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/BottomBoxWave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/ChatActionsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/ChatAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/ChatListEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/CustomFaceGroupConfigs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/FaceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/MessageInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/chat/view/widget/MessageOperaUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/model/ContactInfoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/model/ContactManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/model/ContactProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/presenter/ContactPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/ContactList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/ContactMainPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/adapter/ContactAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/adapter/ContactObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/adapter/ContactPopMenuAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/adapter/ContactPopMenuAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/event/ContactPanelEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/fragment/StartGroupChatFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/ContactPanelEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/IndexBar/bean/BaseIndexBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/IndexBar/bean/BaseIndexPinyinBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/IndexBar/helper/IIndexBarDataHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/IndexBar/helper/IndexBarDataHelperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/IndexBar/widget/IndexBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/suspension/ISuspensionInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/contact/view/widget/suspension/SuspensionDecoration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/login/view/ILoginEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/login/view/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/mine/presenter/SelfInfoPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/mine/view/SelfInfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/model/SessionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/model/SessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/model/SessionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/presenter/SessionPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/DynamicSessionIconView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/SessionIconView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/SessionListView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/SessionPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/wedgit/SessionAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/wedgit/SessionClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/wedgit/SessionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/business/session/view/wedgit/SessionListEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/BackgroundTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/BaseActvity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/BaseFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/IUIKitCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/IUIKitUICallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/ProxyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/UIKitConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/action/PopActionClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/action/PopMenuAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/action/PopMenuAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/audio/UIKitAudioArmMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/audio/UIKitAudioMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/adapter/ArrayWheelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/adapter/NumericWheelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/adapter/WheelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/builder/OptionsPickerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/builder/TimePickerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/configure/PickerOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/interfaces/IPickerViewData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/CustomListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/ISelectTimeCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/LoopViewGestureListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnDismissListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnItemSelectedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnOptionsSelectChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnOptionsSelectListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnTimeSelectChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/listener/OnTimeSelectListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/timer/InertiaTimerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/timer/PickerMsgHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/timer/SmoothScrollTimerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/utils/ChinaDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/utils/LunarCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/utils/PickerViewAnimateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/BasePickerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/OptionsPickerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/TimePickerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/WheelOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/WheelTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/datepicker/view/WheelView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/Emoji.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/EmojiIndicatorView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/FaceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/FaceGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/FaceGroupIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/FaceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/face/RecentEmojiManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/info/BaseInfoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/info/InfoItemAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/info/InfoItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/info/InfoItemListView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/map/MapManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/GifSizeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/Matisse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/MimeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/PictureInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/SelectionCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/filter/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/imageEngine/ImageEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/imageEngine/impl/GlideEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/imageEngine/impl/PicassoEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/entity/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/entity/CaptureStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/entity/IncapableCause.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/entity/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/entity/SelectionSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/loader/AlbumLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/loader/AlbumMediaLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/model/AlbumCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/model/AlbumMediaCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/model/SelectedItemCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/AlbumPreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/BasePreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/MediaSelectionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/PreviewItemFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/SelectedPreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/adapter/AlbumMediaAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/adapter/AlbumsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/adapter/PreviewPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/adapter/RecyclerViewCursorAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/AlbumsSpinner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/CheckRadioView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/CheckView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/IncapableDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/MediaGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/MediaGridInset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/PreviewViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/RoundedRectangleImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/ui/widget/SquareFrameLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/ExifInterfaceCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/MediaStoreCompat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/PathUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/PhotoMetadataUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/PictureUIUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/internal/utils/Platform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/listener/OnCheckedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/listener/OnSelectedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/picture/ui/MatisseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/titlebar/PageTitleBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/CameraActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/CameraInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/CaptureButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/CaptureLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/FoucsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/JCameraView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/ReturnButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/TypeButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/UIKitVideoView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/VideoViewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/CaptureListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/ClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/ErrorListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/JCameraListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/ResultListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/ReturnListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/listener/TypeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/state/BorrowPictureState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/state/BorrowVideoState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/state/CameraMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/state/PreviewState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/state/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/AngleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/AudioUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/CameraParamUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/CheckPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/DeviceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/util/LogUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/component/video/view/CameraView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/CrashHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/DateTimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/ImageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/PopWindowUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/ScreenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/SoftKeyBoardUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/UIUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/utils/URIUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/DynamicLayoutView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/InfoCacheView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/InfoItemView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/ShadeImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/UIKitSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/UIKitTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/UnReadCountTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/gatherimage/BitmapUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/gatherimage/MultiImageData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/gatherimage/SynthesizedImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/gatherimage/Synthesizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/gatherimage/TeamHeadSynthesizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/Compat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/CustomGestureDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnGestureListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnMatrixChangedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnOutsidePhotoTapListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnPhotoTapListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnScaleChangedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnSingleFlingListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnViewDragListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/OnViewTapListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/PhotoView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/PhotoViewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/PhotoViewAttacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/common/widget/photoview/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/UIKitMessageRevokedManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/c2c/C2CChatStartActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/c2c/PersonalInfoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupApplyManagerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupChatCreateActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupChatJoinActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupDelMemberFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupInfoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupInvitelMemberFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupManagerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/group/GroupMemberFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/message/UIKitRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/message/UIKitRequestDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/java/com/tencent/qcloud/uikit/operation/message/UIKitRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/anim/pickerview_dialog_scale_in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/anim/pickerview_dialog_scale_out.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/anim/pickerview_slide_in_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/anim/pickerview_slide_out_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_location_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_location_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_photo_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_photo_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_video_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/action_video_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/alert_dialog_bg.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/default_user_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/del_icon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/face_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/group_info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_check_white_18dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_empty_dracula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_empty_zhihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_preview_radio_off.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/ic_preview_radio_on.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/indicator_point_nomal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/indicator_point_select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/item_point_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/message_send_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/mic_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/more_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/page_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/page_unselected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/personal_info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/qq_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/record_mic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/red_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/send_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/send_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/switch_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/switch_track_moving.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/switch_track_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/switch_track_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/voice_msg_playing_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/voice_msg_playing_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/voice_msg_playing_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-hdpi/wechat_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_check_white_18dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_empty_dracula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_empty_zhihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_preview_radio_off.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-mdpi/ic_preview_radio_on.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_check_white_18dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_empty_dracula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_emtpy_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_preview_radio_off.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xhdpi/ic_preview_radio_on.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/add_group_member.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/bottom_action_face_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/bottom_action_input_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/bottom_action_keyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/bottom_action_more_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/bottom_action_voice_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/check_box_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/check_box_unselected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/defaut_img_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/del_group_member.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/emoji_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/exclama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/group_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_check_white_18dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_empty_dracula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_empty_zhihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/join_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/member_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/recording_cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/session_c2c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/session_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/session_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/title_bar_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxhdpi/voice_volume7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_face_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_face_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_input_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_input_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_keyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_more_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_more_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_voice_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/bottom_action_voice_pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/chat_opposite_bg.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/chat_self_bg.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/default_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/default_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/face_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/file_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/group_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_check_white_18dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_empty_dracula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_empty_zhihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_photo_camera_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/indicator_point_nomal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/indicator_point_select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/join_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/member_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/play_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/recording_cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/send_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/title_bar_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable-xxxhdpi/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_audio_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_face_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_location_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_more_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_photo_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_textinput_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/action_video_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/bottom_action_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/chat_time_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/chat_tips_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/checkbox_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/editor_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/editor_border_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/ensure_dialog_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/gray_btn_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/green_btn_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/ic_back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/ic_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/ic_photo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/message_send_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/msg_editor_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/msg_send_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/play_voice_message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/popu_dialog_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/recording_volume.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/selector_face_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/selector_pickerview_btn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/shape_side_bar_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/text_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/top_pop.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/top_pop_bg.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/unread_message_count_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/view_original_image_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/drawable/voice_btn_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/activity_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/activity_matisse.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/activity_media_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/activity_photo_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/activity_video_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/album_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/c2c_chat_create_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/camera_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_audio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_audio_self.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_file_self.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_image_self.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_load_more.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_text_self.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_tips.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_adapter_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_bottom_actions_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_bottom_actoin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_bottom_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/chat_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_fragment_start_group_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_main_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_pop_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_pop_menu_adapter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/contact_selecable_adapter_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/face_group_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/fragment_face.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/fragment_media_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/fragment_preview_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_apply_manager_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_apply_manager_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_chat_join_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_create_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_create_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_fragment_del_members.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_fragment_invite_members.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_fragment_members.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_info_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_info_pop_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_manager_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_adpater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_apply_adpater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_del_adpater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_del_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_invite_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/group_member_pop_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/include_pickerview_topbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/info_fragment_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/info_fragment_personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/info_item_action_adapter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/item_face.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_basepickerview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_ensure_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_face_grid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_info_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/layout_page_title_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/login_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/media_grid_content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/media_grid_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/personal_info_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/personal_more_action_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/personal_self_info_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/photo_capture_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/pickerview_options.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/pickerview_time.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/pop_menu_adapter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/pop_menu_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/profile_icon_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/session_adapter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/session_c2c_search_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/session_panel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/layout/session_pop_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/colors_dracula.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/colors_zhihu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/integers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/xml/file_paths_private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentOrTeacher/tuikit/src/main/res/xml/file_paths_public.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/student/src/com/netease/nim/demo/main/model/MainTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#469#494#0" expanded="true" />
+                <element signature="e#699#717#0" expanded="true" />
+                <element signature="e#810#833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/src/com/netease/nim/demo/main/reminder/ReminderId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/res/values/strings-chatroom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/res/drawable/splash_bg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/res/drawable-hdpi/welcome_bg.webp">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>3.1</find>
+      <find>直播</find>
+      <find>直播间</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/script.gradle" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/student/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/student/src/com/netease/nim/demo/main/reminder/ReminderId.java" />
+        <option value="$PROJECT_DIR$/student/res/values/strings-chatroom.xml" />
+        <option value="$PROJECT_DIR$/student/src/com/netease/nim/demo/main/model/MainTab.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1658" />
+    <option name="height" value="949" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nim_education_student" type="1abcf292:AndroidViewProjectNode" />
+              <item name="student" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="nim_education_student" type="1abcf292:AndroidViewProjectNode" />
+              <item name="student" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="nim_education_student" type="1abcf292:AndroidViewProjectNode" />
+              <item name="student" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="nim_education_student" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="28155cc79805" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="student" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="student" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30f7363f-f994-4b43-9663-2f1fa40479a7" name="Default Changelist" comment="" />
+      <created>1557811013760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557811013760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="980" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.28381255" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Gradle View" />
+      <window_info anchor="bottom" id="Build" weight="0.18549223" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Find" visible="true" weight="0.32947975" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rtskit/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/res/drawable-hdpi/welcome_bg.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/res/drawable/splash_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/src/com/netease/nim/demo/main/reminder/ReminderId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/res/values/strings-chatroom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/src/com/netease/nim/demo/main/model/MainTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#469#494#0" expanded="true" />
+            <element signature="e#699#717#0" expanded="true" />
+            <element signature="e#810#833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

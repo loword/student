@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":64,"versionName":"6.4.0","enabled":true,"outputFile":"rtskit-debug.aar","fullName":"debug","baseName":"debug"},"path":"../../library_manifest/debug/AndroidManifest.xml","properties":{"packageId":"com.netease.nim.rtskit","split":""}}]

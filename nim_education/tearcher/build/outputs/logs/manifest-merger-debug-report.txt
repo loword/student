@@ -1,0 +1,441 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+MERGED from [com.android.support:design:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/edaabd1c489d6946dcfb96657ff2b94f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/96c19f8ab73beeb349fdcea852f1c256/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/8cf84ab72067899c9df85a2584fe1a5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/f2d9bae0605a29bc20430fc6d4d2a2be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5c8555e3fdb49f4b0b8785112e0bdfb8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/75b18aef40a96e1bb6ba818e563ddf75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d8a098c517f045fd1fc803592c02d10f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a1dbe27726cc60f3587c615871872dcf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/2c697140f1546eb51822203684d67791/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/ef1074f96c852a01811b600f369ce78b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/85ce471eef1d0a1108572062ee9954f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/568718c6d9b3b4f4534f3c4c496688d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/10495eece6f2a06e770afac60e6a20bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/4492f89d5277d81d5e18af65356eb377/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/c9369d09acde6f4cc42f00bc7991c3b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/bf6ff6b14ee2bb80a49120fd9f4f2909/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/0f2f7aa8ebcca935e95ecc52dc833985/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63566d972162311566089c665b9bac34/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/16a231c4bc581a28fc8757e3ec3b225c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/fecfb2c4ef3b6d658c2d46f2f6a4876c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/1f4e2ff5689c4aaadca518bd68816f1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63317cfaf6e5fc9efd6090ff7e3cff37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d551ab7c46595aabf148cf05f23c830f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d70a4ab3a08e231e0f6fb266969e18f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5a42d9c49e64e8e80006e92130119e77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/de72c8c0f06a7ad9e7b3020da4c59584/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d8d62a30fa2121c240cf5cf5a473867/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a54783549b8f89be27d2f630b4ff281a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/250702633750701735d549529442853c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+	package
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:1-184:12
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:12:22-66
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:13:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:24:22-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:25:22-73
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:26:22-72
+permission#com.netease.nim.education.demo.permission.RECEIVE_MSG
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:29:5-31:47
+	android:protectionLevel
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:30:9-77
+uses-permission#com.netease.nim.education.demo.permission.RECEIVE_MSG
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:33:5-92
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:33:22-90
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:38:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:40:5-78
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:40:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:42:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:44:5-72
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:44:22-69
+uses-feature#android.hardware.camera
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:46:5-60
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:46:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:47:5-70
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:47:19-67
+uses-feature#0x00020000
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:49:5-51:35
+	android:glEsVersion
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:50:9-41
+	android:required
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:51:9-32
+application
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:53:5-182:19
+MERGED from [com.android.support:design:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/edaabd1c489d6946dcfb96657ff2b94f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/edaabd1c489d6946dcfb96657ff2b94f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63566d972162311566089c665b9bac34/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63566d972162311566089c665b9bac34/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:59:9-35
+	android:label
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:57:9-41
+	android:largeHeap
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:58:9-33
+	android:icon
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:56:9-41
+	android:allowBackup
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:55:9-35
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:60:9-40
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:54:9-39
+meta-data#com.netease.nim.appKey
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:62:9-64:55
+	android:value
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:64:4-52
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:63:13-50
+uses-library#com.google.android.maps
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:66:9-68:40
+	android:required
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:67:13-51
+activity#com.netease.nim.chatroom.demo.im.activity.WelcomeActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:71:9-84:20
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:76:13-49
+	android:launchMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:75:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:74:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:78:13-52
+	android:configChanges
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:73:13-63
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:77:13-65
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:72:13-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:79:13-83:29
+action#android.intent.action.MAIN
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:80:17-69
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:80:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:82:17-77
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:82:27-74
+activity#com.netease.nim.chatroom.demo.im.activity.LoginActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:86:9-90:67
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:88:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:90:13-64
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:89:13-46
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:87:13-54
+activity#com.netease.nim.chatroom.demo.education.activity.EnterRoomActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:95:9-99:70
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:97:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:99:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:96:13-65
+activity#com.netease.nim.chatroom.demo.education.activity.IdentifyActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:101:9-104:70
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:104:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:103:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:102:13-64
+activity#com.netease.nim.chatroom.demo.education.activity.ChatRoomActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:106:9-110:70
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:110:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:109:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:107:13-64
+activity#com.netease.nim.chatroom.demo.education.activity.InputActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:112:9-116:77
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:116:13-74
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:115:13-54
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:113:13-61
+activity#com.netease.nim.chatroom.demo.education.activity.AboutActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:118:9-121:70
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:121:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:118:19-67
+activity#com.netease.nim.chatroom.demo.education.activity.SettingActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:123:9-126:70
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:124:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:126:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:123:19-69
+activity#com.netease.nim.chatroom.demo.education.activity.FileListActivity
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:128:9-131:70
+	android:screenOrientation
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:131:13-67
+	android:theme
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:130:13-56
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:128:19-70
+service#com.netease.nimlib.service.NimService
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:136:9-138:39
+	android:process
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:138:13-36
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:137:13-65
+service#com.netease.nimlib.service.NimService$Aux
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:140:9-142:39
+	android:process
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:141:13-69
+receiver#com.netease.nimlib.receiver.RTSBroadcastReceiver
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:145:9-152:20
+	android:enabled
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:147:13-35
+	android:exported
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:146:13-76
+intent-filter#action:name:com.netease.nim.meeting.demo.ACTION.RECEIVE_RTS_NOTIFICATION
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:149:13-151:29
+action#com.netease.nim.meeting.demo.ACTION.RECEIVE_RTS_NOTIFICATION
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:150:17-103
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:150:25-100
+receiver#com.netease.nimlib.service.NimReceiver
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:155:9-163:20
+	android:process
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:158:13-36
+	android:exported
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:156:13-66
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:159:13-162:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:160:17-79
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:160:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:161:17-79
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:161:25-76
+receiver#com.netease.nimlib.service.ResponseReceiver
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:166:9-80
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:166:19-77
+service#com.netease.nimlib.service.ResponseService
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:169:9-78
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:169:18-75
+service#com.netease.nim.chatroom.demo.thirdparty.live.NetInfoService
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:172:9-67
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:172:18-64
+service#com.netease.nim.chatroom.demo.thirdparty.live.AlertService
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:174:9-65
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:174:18-62
+receiver#com.netease.pushservice.receiver.PushServiceBootReceiver
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:176:9-180:20
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:176:19-90
+intent-filter#action:name:android.intent.action.ACTION_BATTERY_CHANGED
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:177:13-179:29
+action#android.intent.action.ACTION_BATTERY_CHANGED
+ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:178:17-87
+	android:name
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml:178:25-84
+uses-sdk
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/edaabd1c489d6946dcfb96657ff2b94f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/edaabd1c489d6946dcfb96657ff2b94f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/96c19f8ab73beeb349fdcea852f1c256/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/96c19f8ab73beeb349fdcea852f1c256/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/8cf84ab72067899c9df85a2584fe1a5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/8cf84ab72067899c9df85a2584fe1a5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/f2d9bae0605a29bc20430fc6d4d2a2be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/f2d9bae0605a29bc20430fc6d4d2a2be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5c8555e3fdb49f4b0b8785112e0bdfb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5c8555e3fdb49f4b0b8785112e0bdfb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/75b18aef40a96e1bb6ba818e563ddf75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/75b18aef40a96e1bb6ba818e563ddf75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d8a098c517f045fd1fc803592c02d10f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d8a098c517f045fd1fc803592c02d10f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a1dbe27726cc60f3587c615871872dcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a1dbe27726cc60f3587c615871872dcf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/2c697140f1546eb51822203684d67791/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/2c697140f1546eb51822203684d67791/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/ef1074f96c852a01811b600f369ce78b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/ef1074f96c852a01811b600f369ce78b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/85ce471eef1d0a1108572062ee9954f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/85ce471eef1d0a1108572062ee9954f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/568718c6d9b3b4f4534f3c4c496688d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/568718c6d9b3b4f4534f3c4c496688d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/10495eece6f2a06e770afac60e6a20bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/10495eece6f2a06e770afac60e6a20bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/4492f89d5277d81d5e18af65356eb377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/4492f89d5277d81d5e18af65356eb377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/c9369d09acde6f4cc42f00bc7991c3b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/c9369d09acde6f4cc42f00bc7991c3b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/bf6ff6b14ee2bb80a49120fd9f4f2909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/bf6ff6b14ee2bb80a49120fd9f4f2909/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/0f2f7aa8ebcca935e95ecc52dc833985/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/0f2f7aa8ebcca935e95ecc52dc833985/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/632a5c85cfbaeb5a70130a0b8c2e8c5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63566d972162311566089c665b9bac34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63566d972162311566089c665b9bac34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/16a231c4bc581a28fc8757e3ec3b225c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/16a231c4bc581a28fc8757e3ec3b225c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/fecfb2c4ef3b6d658c2d46f2f6a4876c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/fecfb2c4ef3b6d658c2d46f2f6a4876c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/1f4e2ff5689c4aaadca518bd68816f1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/1f4e2ff5689c4aaadca518bd68816f1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63317cfaf6e5fc9efd6090ff7e3cff37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/63317cfaf6e5fc9efd6090ff7e3cff37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d551ab7c46595aabf148cf05f23c830f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/d551ab7c46595aabf148cf05f23c830f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d70a4ab3a08e231e0f6fb266969e18f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d70a4ab3a08e231e0f6fb266969e18f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5a42d9c49e64e8e80006e92130119e77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/5a42d9c49e64e8e80006e92130119e77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/de72c8c0f06a7ad9e7b3020da4c59584/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/de72c8c0f06a7ad9e7b3020da4c59584/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d8d62a30fa2121c240cf5cf5a473867/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/3d8d62a30fa2121c240cf5cf5a473867/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a54783549b8f89be27d2f630b4ff281a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/a54783549b8f89be27d2f630b4ff281a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/250702633750701735d549529442853c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/peterliu/.gradle/caches/transforms-2/files-2.1/250702633750701735d549529442853c/AndroidManifest.xml:20:5-44
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		ADDED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml
+		INJECTED from /Users/peterliu/code/student/nim_education/tearcher/AndroidManifest.xml

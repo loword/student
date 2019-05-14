@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":64,"versionName":"6.4.0","enabled":true,"outputFile":"student-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.netease.nim.demo","split":"","minSdkVersion":"14"}}]

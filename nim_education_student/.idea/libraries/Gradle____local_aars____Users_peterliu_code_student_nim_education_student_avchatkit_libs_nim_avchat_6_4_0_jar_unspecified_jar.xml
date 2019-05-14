@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/peterliu/code/student/nim_education_student/avchatkit/libs/nim-avchat-6.4.0.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/avchatkit/libs/nim-avchat-6.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

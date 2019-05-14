@@ -1,0 +1,2 @@
+# Referenced at /Users/peterliu/code/student/nim_education_student/student/build/intermediates/merged_manifests/debug/AndroidManifest.xml:107
+-keep class com.netease.nim.demo.NimApplication { <init>(); }
